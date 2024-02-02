@@ -1,0 +1,1219 @@
+[00:00:00] Build started
+[00:00:00] git clone -q --branch=master https://github.com/git-lfs/git-lfs.git C:\Users\appveyor\go\src\github.com\git-lfs\git-lfs
+[00:00:04] git checkout -qf 8496d232b606abfdd296eabf6512041724f13177
+[00:00:04] Running Install scripts
+[00:00:04] rd C:\Go /s /q
+[00:00:04] cinst golang --version 1.8.1 -y
+[00:00:05] Chocolatey v0.10.3
+[00:00:05] Installing the following packages:
+[00:00:05] golang
+[00:00:05] By installing you accept licenses for the packages.
+[00:00:06] 
+[00:00:06] golang v1.8.1 [Approved]
+[00:00:06] golang package files install completed. Performing other installation steps.
+[00:00:08] C:\tools
+[00:00:08] Downloading golang 64 bit
+[00:00:08]   from 'https://storage.googleapis.com/golang/go1.8.1.windows-amd64.zip'
+[00:00:08] 
+[00:00:08] Progress: 0% - Saving 12.17 KB of 92.04 MB (12467/96513012)
+[00:00:08] Progress: 0% - Saving 23.9 KB of 92.04 MB (24472/96513012)
+[00:00:08] Progress: 0% - Saving 36.82 KB of 92.04 MB (37702/96513012)
+[00:00:08] Progress: 0% - Saving 49.44 KB of 92.04 MB (50625/96513012)
+[00:00:08] Progress: 0% - Saving 62.36 KB of 92.04 MB (63855/96513012)
+[00:00:08] Progress: 0% - Saving 74.47 KB of 92.04 MB (76258/96513012)
+[00:00:08] Progress: 0% - Saving 87.39 KB of 92.04 MB (89488/96513012)
+[00:00:08] Progress: 0% - Saving 100.01 KB of 92.04 MB (102411/96513012)
+[00:00:08] Progress: 0% - Saving 112.93 KB of 92.04 MB (115641/96513012)
+[00:00:08] Progress: 0% - Saving 125.85 KB of 92.04 MB (128871/96513012)
+[00:00:08] Progress: 0% - Saving 138.47 KB of 92.04 MB (141794/96513012)
+[00:00:08] Progress: 0% - Saving 151.39 KB of 92.04 MB (155024/96513012)
+[00:00:08] Progress: 0% - Saving 164.01 KB of 92.04 MB (167947/96513012)
+[00:00:08] Progress: 0% - Saving 176.93 KB of 92.04 MB (181177/96513012)
+[00:00:08] Progress: 0% - Saving 189.85 KB of 92.04 MB (194407/96513012)
+[00:00:08] Progress: 0% - Saving 202.47 KB of 92.04 MB (207330/96513012)
+[00:00:08] Progress: 0% - Saving 215.39 KB of 92.04 MB (220560/96513012)
+[00:00:08] Progress: 0% - Saving 228.01 KB of 92.04 MB (233483/96513012)
+[00:00:08] Progress: 0% - Saving 240.93 KB of 92.04 MB (246713/96513012)
+[00:00:08] Progress: 0% - Saving 253.85 KB of 92.04 MB (259943/96513012)
+[00:00:08] Progress: 0% - Saving 266.47 KB of 92.04 MB (272866/96513012)
+[00:00:08] Progress: 0% - Saving 279.39 KB of 92.04 MB (286096/96513012)
+[00:00:08] Progress: 0% - Saving 292.01 KB of 92.04 MB (299019/96513012)
+[00:00:08] Progress: 0% - Saving 304.93 KB of 92.04 MB (312249/96513012)
+[00:00:08] Progress: 0% - Saving 317.85 KB of 92.04 MB (325479/96513012)
+[00:00:08] Progress: 0% - Saving 330.47 KB of 92.04 MB (338402/96513012)
+[00:00:08] Progress: 0% - Saving 343.39 KB of 92.04 MB (351632/96513012)
+[00:00:08] Progress: 0% - Saving 356.01 KB of 92.04 MB (364555/96513012)
+[00:00:08] Progress: 0% - Saving 368.93 KB of 92.04 MB (377785/96513012)
+[00:00:08] Progress: 0% - Saving 381.85 KB of 92.04 MB (391015/96513012)
+[00:00:08] Progress: 0% - Saving 394.47 KB of 92.04 MB (403938/96513012)
+[00:00:08] Progress: 0% - Saving 407.39 KB of 92.04 MB (417168/96513012)
+[00:00:08] Progress: 0% - Saving 420.01 KB of 92.04 MB (430091/96513012)
+[00:00:08] Progress: 0% - Saving 432.93 KB of 92.04 MB (443321/96513012)
+[00:00:08] Progress: 0% - Saving 445.85 KB of 92.04 MB (456551/96513012)
+[00:00:08] Progress: 0% - Saving 458.47 KB of 92.04 MB (469474/96513012)
+[00:00:08] Progress: 0% - Saving 471.39 KB of 92.04 MB (482704/96513012)
+[00:00:08] Progress: 0% - Saving 484.01 KB of 92.04 MB (495627/96513012)
+[00:00:08] Progress: 0% - Saving 496.93 KB of 92.04 MB (508857/96513012)
+[00:00:08] Progress: 0% - Saving 509.85 KB of 92.04 MB (522087/96513012)
+[00:00:08] Progress: 0% - Saving 522.47 KB of 92.04 MB (535010/96513012)
+[00:00:08] Progress: 0% - Saving 535.39 KB of 92.04 MB (548240/96513012)
+[00:00:08] Progress: 0% - Saving 548.01 KB of 92.04 MB (561163/96513012)
+[00:00:08] Progress: 0% - Saving 560.93 KB of 92.04 MB (574393/96513012)
+[00:00:08] Progress: 0% - Saving 573.85 KB of 92.04 MB (587623/96513012)
+[00:00:08] Progress: 0% - Saving 586.47 KB of 92.04 MB (600546/96513012)
+[00:00:08] Progress: 0% - Saving 599.39 KB of 92.04 MB (613776/96513012)
+[00:00:08] Progress: 0% - Saving 612.01 KB of 92.04 MB (626699/96513012)
+[00:00:08] Progress: 0% - Saving 624.93 KB of 92.04 MB (639929/96513012)
+[00:00:08] Progress: 0% - Saving 637.85 KB of 92.04 MB (653159/96513012)
+[00:00:08] Progress: 0% - Saving 650.47 KB of 92.04 MB (666082/96513012)
+[00:00:08] Progress: 0% - Saving 663.39 KB of 92.04 MB (679312/96513012)
+[00:00:08] Progress: 0% - Saving 676.01 KB of 92.04 MB (692235/96513012)
+[00:00:08] Progress: 0% - Saving 688.93 KB of 92.04 MB (705465/96513012)
+[00:00:08] Progress: 0% - Saving 701.85 KB of 92.04 MB (718695/96513012)
+[00:00:08] Progress: 0% - Saving 714.47 KB of 92.04 MB (731618/96513012)
+[00:00:08] Progress: 0% - Saving 727.39 KB of 92.04 MB (744848/96513012)
+[00:00:08] Progress: 0% - Saving 740.01 KB of 92.04 MB (757771/96513012)
+[00:00:08] Progress: 0% - Saving 752.93 KB of 92.04 MB (771001/96513012)
+[00:00:08] Progress: 0% - Saving 765.85 KB of 92.04 MB (784231/96513012)
+[00:00:08] Progress: 0% - Saving 778.47 KB of 92.04 MB (797154/96513012)
+[00:00:08] Progress: 0% - Saving 791.39 KB of 92.04 MB (810384/96513012)
+[00:00:08] Progress: 0% - Saving 804.01 KB of 92.04 MB (823307/96513012)
+[00:00:08] Progress: 0% - Saving 816.93 KB of 92.04 MB (836537/96513012)
+[00:00:08] Progress: 0% - Saving 829.85 KB of 92.04 MB (849767/96513012)
+[00:00:08] Progress: 0% - Saving 842.47 KB of 92.04 MB (862690/96513012)
+[00:00:08] Progress: 0% - Saving 855.39 KB of 92.04 MB (875920/96513012)
+[00:00:08] Progress: 0% - Saving 868.01 KB of 92.04 MB (888843/96513012)
+[00:00:08] Progress: 0% - Saving 880.93 KB of 92.04 MB (902073/96513012)
+[00:00:08] Progress: 0% - Saving 893.85 KB of 92.04 MB (915303/96513012)
+[00:00:08] Progress: 0% - Saving 906.47 KB of 92.04 MB (928226/96513012)
+[00:00:08] Progress: 0% - Saving 919.39 KB of 92.04 MB (941456/96513012)
+[00:00:08] Progress: 0% - Saving 932.01 KB of 92.04 MB (954379/96513012)
+[00:00:09] Progress: 1% - Saving 944.93 KB of 92.04 MB (967609/96513012)
+[00:00:09] Progress: 1% - Saving 957.85 KB of 92.04 MB (980839/96513012)
+[00:00:09] Progress: 1% - Saving 970.47 KB of 92.04 MB (993762/96513012)
+[00:00:09] Progress: 1% - Saving 983.39 KB of 92.04 MB (1006992/96513012)
+[00:00:09] Progress: 1% - Saving 996.01 KB of 92.04 MB (1019915/96513012)
+[00:00:09] Progress: 1% - Saving 1008.93 KB of 92.04 MB (1033145/96513012)
+[00:00:09] Progress: 1% - Saving 1021.85 KB of 92.04 MB (1046375/96513012)
+[00:00:09] Progress: 1% - Saving 1.01 MB of 92.04 MB (1059298/96513012)
+[00:00:09] Progress: 1% - Saving 1.02 MB of 92.04 MB (1072528/96513012)
+[00:00:09] Progress: 1% - Saving 1.09 MB of 92.04 MB (1145695/96513012)
+[00:00:09] Progress: 1% - Saving 1.25 MB of 92.04 MB (1309535/96513012)
+[00:00:09] Progress: 1% - Saving 1.41 MB of 92.04 MB (1473375/96513012)
+[00:00:09] Progress: 1% - Saving 1.56 MB of 92.04 MB (1637215/96513012)
+[00:00:09] Progress: 1% - Saving 1.72 MB of 92.04 MB (1801055/96513012)
+[00:00:09] Progress: 2% - Saving 1.87 MB of 92.04 MB (1964895/96513012)
+[00:00:09] Progress: 2% - Saving 2.03 MB of 92.04 MB (2128735/96513012)
+[00:00:09] Progress: 2% - Saving 2.19 MB of 92.04 MB (2292575/96513012)
+[00:00:09] Progress: 2% - Saving 2.34 MB of 92.04 MB (2456415/96513012)
+[00:00:09] Progress: 2% - Saving 2.5 MB of 92.04 MB (2620255/96513012)
+[00:00:09] Progress: 2% - Saving 2.66 MB of 92.04 MB (2784095/96513012)
+[00:00:09] Progress: 3% - Saving 2.81 MB of 92.04 MB (2947935/96513012)
+[00:00:09] Progress: 3% - Saving 2.97 MB of 92.04 MB (3111775/96513012)
+[00:00:09] Progress: 3% - Saving 3.12 MB of 92.04 MB (3275615/96513012)
+[00:00:09] Progress: 3% - Saving 3.28 MB of 92.04 MB (3439455/96513012)
+[00:00:09] Progress: 3% - Saving 3.44 MB of 92.04 MB (3603295/96513012)
+[00:00:09] Progress: 3% - Saving 3.59 MB of 92.04 MB (3767135/96513012)
+[00:00:09] Progress: 4% - Saving 3.75 MB of 92.04 MB (3930975/96513012)
+[00:00:09] Progress: 4% - Saving 3.91 MB of 92.04 MB (4094815/96513012)
+[00:00:09] Progress: 4% - Saving 4.06 MB of 92.04 MB (4258655/96513012)
+[00:00:09] Progress: 4% - Saving 4.22 MB of 92.04 MB (4422495/96513012)
+[00:00:09] Progress: 4% - Saving 4.37 MB of 92.04 MB (4586335/96513012)
+[00:00:09] Progress: 4% - Saving 4.53 MB of 92.04 MB (4750175/96513012)
+[00:00:09] Progress: 5% - Saving 4.69 MB of 92.04 MB (4914015/96513012)
+[00:00:09] Progress: 5% - Saving 4.84 MB of 92.04 MB (5077855/96513012)
+[00:00:09] Progress: 5% - Saving 5 MB of 92.04 MB (5241695/96513012)
+[00:00:09] Progress: 5% - Saving 5.16 MB of 92.04 MB (5405535/96513012)
+[00:00:09] Progress: 5% - Saving 5.31 MB of 92.04 MB (5569375/96513012)
+[00:00:09] Progress: 5% - Saving 5.47 MB of 92.04 MB (5733215/96513012)
+[00:00:09] Progress: 6% - Saving 5.62 MB of 92.04 MB (5897055/96513012)
+[00:00:09] Progress: 6% - Saving 5.78 MB of 92.04 MB (6060895/96513012)
+[00:00:09] Progress: 6% - Saving 5.94 MB of 92.04 MB (6224735/96513012)
+[00:00:09] Progress: 6% - Saving 6.09 MB of 92.04 MB (6388575/96513012)
+[00:00:09] Progress: 6% - Saving 6.25 MB of 92.04 MB (6552415/96513012)
+[00:00:09] Progress: 6% - Saving 6.41 MB of 92.04 MB (6716255/96513012)
+[00:00:09] Progress: 7% - Saving 6.56 MB of 92.04 MB (6880095/96513012)
+[00:00:09] Progress: 7% - Saving 6.72 MB of 92.04 MB (7043935/96513012)
+[00:00:09] Progress: 7% - Saving 6.87 MB of 92.04 MB (7207775/96513012)
+[00:00:09] Progress: 7% - Saving 7.03 MB of 92.04 MB (7371615/96513012)
+[00:00:09] Progress: 7% - Saving 7.19 MB of 92.04 MB (7535455/96513012)
+[00:00:09] Progress: 7% - Saving 7.34 MB of 92.04 MB (7699295/96513012)
+[00:00:09] Progress: 8% - Saving 7.5 MB of 92.04 MB (7863135/96513012)
+[00:00:09] Progress: 8% - Saving 7.66 MB of 92.04 MB (8026975/96513012)
+[00:00:09] Progress: 8% - Saving 7.81 MB of 92.04 MB (8190815/96513012)
+[00:00:09] Progress: 8% - Saving 7.97 MB of 92.04 MB (8354655/96513012)
+[00:00:09] Progress: 8% - Saving 8.12 MB of 92.04 MB (8518495/96513012)
+[00:00:09] Progress: 8% - Saving 8.28 MB of 92.04 MB (8682335/96513012)
+[00:00:09] Progress: 9% - Saving 8.44 MB of 92.04 MB (8846175/96513012)
+[00:00:09] Progress: 9% - Saving 8.59 MB of 92.04 MB (9010015/96513012)
+[00:00:09] Progress: 9% - Saving 8.75 MB of 92.04 MB (9173855/96513012)
+[00:00:09] Progress: 9% - Saving 8.91 MB of 92.04 MB (9337695/96513012)
+[00:00:09] Progress: 9% - Saving 9.06 MB of 92.04 MB (9501535/96513012)
+[00:00:09] Progress: 10% - Saving 9.22 MB of 92.04 MB (9665375/96513012)
+[00:00:09] Progress: 10% - Saving 9.37 MB of 92.04 MB (9829215/96513012)
+[00:00:09] Progress: 10% - Saving 9.53 MB of 92.04 MB (9993055/96513012)
+[00:00:09] Progress: 10% - Saving 9.69 MB of 92.04 MB (10156895/96513012)
+[00:00:09] Progress: 10% - Saving 9.84 MB of 92.04 MB (10320735/96513012)
+[00:00:09] Progress: 10% - Saving 10 MB of 92.04 MB (10484575/96513012)
+[00:00:09] Progress: 11% - Saving 10.16 MB of 92.04 MB (10648415/96513012)
+[00:00:09] Progress: 11% - Saving 10.31 MB of 92.04 MB (10812255/96513012)
+[00:00:09] Progress: 11% - Saving 10.47 MB of 92.04 MB (10976095/96513012)
+[00:00:09] Progress: 11% - Saving 10.62 MB of 92.04 MB (11139935/96513012)
+[00:00:09] Progress: 11% - Saving 10.78 MB of 92.04 MB (11303775/96513012)
+[00:00:09] Progress: 11% - Saving 10.94 MB of 92.04 MB (11467615/96513012)
+[00:00:09] Progress: 12% - Saving 11.09 MB of 92.04 MB (11631455/96513012)
+[00:00:09] Progress: 12% - Saving 11.25 MB of 92.04 MB (11795295/96513012)
+[00:00:09] Progress: 12% - Saving 11.41 MB of 92.04 MB (11959135/96513012)
+[00:00:09] Progress: 12% - Saving 11.56 MB of 92.04 MB (12122975/96513012)
+[00:00:09] Progress: 12% - Saving 11.72 MB of 92.04 MB (12286815/96513012)
+[00:00:09] Progress: 12% - Saving 11.87 MB of 92.04 MB (12450655/96513012)
+[00:00:09] Progress: 13% - Saving 12.03 MB of 92.04 MB (12614495/96513012)
+[00:00:09] Progress: 13% - Saving 12.19 MB of 92.04 MB (12778335/96513012)
+[00:00:09] Progress: 13% - Saving 12.34 MB of 92.04 MB (12942175/96513012)
+[00:00:09] Progress: 13% - Saving 12.5 MB of 92.04 MB (13106015/96513012)
+[00:00:09] Progress: 13% - Saving 12.66 MB of 92.04 MB (13269855/96513012)
+[00:00:09] Progress: 13% - Saving 12.81 MB of 92.04 MB (13433695/96513012)
+[00:00:09] Progress: 14% - Saving 12.97 MB of 92.04 MB (13597535/96513012)
+[00:00:09] Progress: 14% - Saving 13.12 MB of 92.04 MB (13761375/96513012)
+[00:00:09] Progress: 14% - Saving 13.28 MB of 92.04 MB (13925215/96513012)
+[00:00:09] Progress: 14% - Saving 13.44 MB of 92.04 MB (14089055/96513012)
+[00:00:09] Progress: 14% - Saving 13.59 MB of 92.04 MB (14252895/96513012)
+[00:00:09] Progress: 14% - Saving 13.75 MB of 92.04 MB (14416735/96513012)
+[00:00:09] Progress: 15% - Saving 13.91 MB of 92.04 MB (14580575/96513012)
+[00:00:09] Progress: 15% - Saving 14.06 MB of 92.04 MB (14744415/96513012)
+[00:00:09] Progress: 15% - Saving 14.22 MB of 92.04 MB (14908255/96513012)
+[00:00:09] Progress: 15% - Saving 14.37 MB of 92.04 MB (15072095/96513012)
+[00:00:09] Progress: 15% - Saving 14.53 MB of 92.04 MB (15235935/96513012)
+[00:00:09] Progress: 15% - Saving 14.69 MB of 92.04 MB (15399775/96513012)
+[00:00:09] Progress: 16% - Saving 14.84 MB of 92.04 MB (15563615/96513012)
+[00:00:09] Progress: 16% - Saving 15 MB of 92.04 MB (15727455/96513012)
+[00:00:09] Progress: 16% - Saving 15.16 MB of 92.04 MB (15891295/96513012)
+[00:00:09] Progress: 16% - Saving 15.31 MB of 92.04 MB (16055135/96513012)
+[00:00:09] Progress: 16% - Saving 15.47 MB of 92.04 MB (16218975/96513012)
+[00:00:09] Progress: 16% - Saving 15.62 MB of 92.04 MB (16382815/96513012)
+[00:00:09] Progress: 17% - Saving 15.78 MB of 92.04 MB (16546655/96513012)
+[00:00:09] Progress: 17% - Saving 15.94 MB of 92.04 MB (16710495/96513012)
+[00:00:09] Progress: 17% - Saving 16.09 MB of 92.04 MB (16874335/96513012)
+[00:00:09] Progress: 17% - Saving 16.25 MB of 92.04 MB (17038175/96513012)
+[00:00:09] Progress: 17% - Saving 16.41 MB of 92.04 MB (17202015/96513012)
+[00:00:09] Progress: 17% - Saving 16.56 MB of 92.04 MB (17365855/96513012)
+[00:00:09] Progress: 18% - Saving 16.72 MB of 92.04 MB (17529695/96513012)
+[00:00:09] Progress: 18% - Saving 16.87 MB of 92.04 MB (17693535/96513012)
+[00:00:09] Progress: 18% - Saving 17.03 MB of 92.04 MB (17857375/96513012)
+[00:00:09] Progress: 18% - Saving 17.19 MB of 92.04 MB (18021215/96513012)
+[00:00:09] Progress: 18% - Saving 17.34 MB of 92.04 MB (18185055/96513012)
+[00:00:09] Progress: 19% - Saving 17.5 MB of 92.04 MB (18348895/96513012)
+[00:00:09] Progress: 19% - Saving 17.66 MB of 92.04 MB (18512735/96513012)
+[00:00:09] Progress: 19% - Saving 17.81 MB of 92.04 MB (18676575/96513012)
+[00:00:09] Progress: 19% - Saving 17.97 MB of 92.04 MB (18840415/96513012)
+[00:00:09] Progress: 19% - Saving 18.12 MB of 92.04 MB (19004255/96513012)
+[00:00:09] Progress: 19% - Saving 18.28 MB of 92.04 MB (19168095/96513012)
+[00:00:09] Progress: 20% - Saving 18.44 MB of 92.04 MB (19331935/96513012)
+[00:00:09] Progress: 20% - Saving 18.59 MB of 92.04 MB (19495775/96513012)
+[00:00:09] Progress: 20% - Saving 18.75 MB of 92.04 MB (19659615/96513012)
+[00:00:09] Progress: 20% - Saving 18.91 MB of 92.04 MB (19823455/96513012)
+[00:00:09] Progress: 20% - Saving 19.06 MB of 92.04 MB (19987295/96513012)
+[00:00:09] Progress: 20% - Saving 19.22 MB of 92.04 MB (20151135/96513012)
+[00:00:09] Progress: 21% - Saving 19.37 MB of 92.04 MB (20314975/96513012)
+[00:00:09] Progress: 21% - Saving 19.53 MB of 92.04 MB (20478815/96513012)
+[00:00:09] Progress: 21% - Saving 19.69 MB of 92.04 MB (20642655/96513012)
+[00:00:09] Progress: 21% - Saving 19.84 MB of 92.04 MB (20806495/96513012)
+[00:00:09] Progress: 21% - Saving 20 MB of 92.04 MB (20970335/96513012)
+[00:00:09] Progress: 21% - Saving 20.16 MB of 92.04 MB (21134175/96513012)
+[00:00:09] Progress: 22% - Saving 20.31 MB of 92.04 MB (21298015/96513012)
+[00:00:09] Progress: 22% - Saving 20.47 MB of 92.04 MB (21461855/96513012)
+[00:00:09] Progress: 22% - Saving 20.62 MB of 92.04 MB (21625695/96513012)
+[00:00:09] Progress: 22% - Saving 20.78 MB of 92.04 MB (21789535/96513012)
+[00:00:09] Progress: 22% - Saving 20.94 MB of 92.04 MB (21953375/96513012)
+[00:00:09] Progress: 22% - Saving 21.09 MB of 92.04 MB (22117215/96513012)
+[00:00:09] Progress: 23% - Saving 21.25 MB of 92.04 MB (22281055/96513012)
+[00:00:09] Progress: 23% - Saving 21.41 MB of 92.04 MB (22444895/96513012)
+[00:00:09] Progress: 23% - Saving 21.56 MB of 92.04 MB (22608735/96513012)
+[00:00:09] Progress: 23% - Saving 21.72 MB of 92.04 MB (22772575/96513012)
+[00:00:09] Progress: 23% - Saving 21.87 MB of 92.04 MB (22936415/96513012)
+[00:00:09] Progress: 23% - Saving 22.03 MB of 92.04 MB (23100255/96513012)
+[00:00:09] Progress: 24% - Saving 22.19 MB of 92.04 MB (23264095/96513012)
+[00:00:09] Progress: 24% - Saving 22.34 MB of 92.04 MB (23427935/96513012)
+[00:00:09] Progress: 24% - Saving 22.5 MB of 92.04 MB (23591775/96513012)
+[00:00:09] Progress: 24% - Saving 22.66 MB of 92.04 MB (23755615/96513012)
+[00:00:09] Progress: 24% - Saving 22.81 MB of 92.04 MB (23919455/96513012)
+[00:00:09] Progress: 24% - Saving 22.97 MB of 92.04 MB (24083295/96513012)
+[00:00:09] Progress: 25% - Saving 23.12 MB of 92.04 MB (24247135/96513012)
+[00:00:09] Progress: 25% - Saving 23.28 MB of 92.04 MB (24410975/96513012)
+[00:00:09] Progress: 25% - Saving 23.44 MB of 92.04 MB (24574815/96513012)
+[00:00:09] Progress: 25% - Saving 23.59 MB of 92.04 MB (24738655/96513012)
+[00:00:09] Progress: 25% - Saving 23.75 MB of 92.04 MB (24902495/96513012)
+[00:00:09] Progress: 25% - Saving 23.91 MB of 92.04 MB (25066335/96513012)
+[00:00:09] Progress: 26% - Saving 24.06 MB of 92.04 MB (25230175/96513012)
+[00:00:09] Progress: 26% - Saving 24.22 MB of 92.04 MB (25394015/96513012)
+[00:00:09] Progress: 26% - Saving 24.37 MB of 92.04 MB (25557855/96513012)
+[00:00:09] Progress: 26% - Saving 24.53 MB of 92.04 MB (25721695/96513012)
+[00:00:09] Progress: 26% - Saving 24.69 MB of 92.04 MB (25885535/96513012)
+[00:00:09] Progress: 26% - Saving 24.84 MB of 92.04 MB (26049375/96513012)
+[00:00:09] Progress: 27% - Saving 25 MB of 92.04 MB (26213215/96513012)
+[00:00:09] Progress: 27% - Saving 25.16 MB of 92.04 MB (26377055/96513012)
+[00:00:09] Progress: 27% - Saving 25.31 MB of 92.04 MB (26540895/96513012)
+[00:00:09] Progress: 27% - Saving 25.47 MB of 92.04 MB (26704735/96513012)
+[00:00:09] Progress: 27% - Saving 25.62 MB of 92.04 MB (26868575/96513012)
+[00:00:09] Progress: 28% - Saving 25.78 MB of 92.04 MB (27032415/96513012)
+[00:00:09] Progress: 28% - Saving 25.94 MB of 92.04 MB (27196255/96513012)
+[00:00:09] Progress: 28% - Saving 26.09 MB of 92.04 MB (27360095/96513012)
+[00:00:09] Progress: 28% - Saving 26.25 MB of 92.04 MB (27523935/96513012)
+[00:00:09] Progress: 28% - Saving 26.41 MB of 92.04 MB (27687775/96513012)
+[00:00:09] Progress: 28% - Saving 26.56 MB of 92.04 MB (27851615/96513012)
+[00:00:09] Progress: 29% - Saving 26.72 MB of 92.04 MB (28015455/96513012)
+[00:00:09] Progress: 29% - Saving 26.87 MB of 92.04 MB (28179295/96513012)
+[00:00:09] Progress: 29% - Saving 27.03 MB of 92.04 MB (28343135/96513012)
+[00:00:09] Progress: 29% - Saving 27.19 MB of 92.04 MB (28506975/96513012)
+[00:00:09] Progress: 29% - Saving 27.34 MB of 92.04 MB (28670815/96513012)
+[00:00:09] Progress: 29% - Saving 27.5 MB of 92.04 MB (28834655/96513012)
+[00:00:09] Progress: 30% - Saving 27.66 MB of 92.04 MB (28998495/96513012)
+[00:00:09] Progress: 30% - Saving 27.81 MB of 92.04 MB (29162335/96513012)
+[00:00:09] Progress: 30% - Saving 27.97 MB of 92.04 MB (29326175/96513012)
+[00:00:09] Progress: 30% - Saving 28.12 MB of 92.04 MB (29490015/96513012)
+[00:00:09] Progress: 30% - Saving 28.28 MB of 92.04 MB (29653855/96513012)
+[00:00:09] Progress: 30% - Saving 28.44 MB of 92.04 MB (29817695/96513012)
+[00:00:09] Progress: 31% - Saving 28.59 MB of 92.04 MB (29981535/96513012)
+[00:00:09] Progress: 31% - Saving 28.75 MB of 92.04 MB (30145375/96513012)
+[00:00:09] Progress: 31% - Saving 28.91 MB of 92.04 MB (30309215/96513012)
+[00:00:09] Progress: 31% - Saving 29.06 MB of 92.04 MB (30473055/96513012)
+[00:00:09] Progress: 31% - Saving 29.22 MB of 92.04 MB (30636895/96513012)
+[00:00:09] Progress: 31% - Saving 29.37 MB of 92.04 MB (30800735/96513012)
+[00:00:09] Progress: 32% - Saving 29.53 MB of 92.04 MB (30964575/96513012)
+[00:00:09] Progress: 32% - Saving 29.69 MB of 92.04 MB (31128415/96513012)
+[00:00:09] Progress: 32% - Saving 29.84 MB of 92.04 MB (31292255/96513012)
+[00:00:09] Progress: 32% - Saving 30 MB of 92.04 MB (31456095/96513012)
+[00:00:09] Progress: 32% - Saving 30.16 MB of 92.04 MB (31619935/96513012)
+[00:00:09] Progress: 32% - Saving 30.31 MB of 92.04 MB (31783775/96513012)
+[00:00:09] Progress: 33% - Saving 30.47 MB of 92.04 MB (31947615/96513012)
+[00:00:09] Progress: 33% - Saving 30.62 MB of 92.04 MB (32111455/96513012)
+[00:00:09] Progress: 33% - Saving 30.78 MB of 92.04 MB (32275295/96513012)
+[00:00:09] Progress: 33% - Saving 30.94 MB of 92.04 MB (32439135/96513012)
+[00:00:09] Progress: 33% - Saving 31.09 MB of 92.04 MB (32602975/96513012)
+[00:00:09] Progress: 33% - Saving 31.25 MB of 92.04 MB (32766815/96513012)
+[00:00:09] Progress: 34% - Saving 31.41 MB of 92.04 MB (32930655/96513012)
+[00:00:09] Progress: 34% - Saving 31.56 MB of 92.04 MB (33094495/96513012)
+[00:00:09] Progress: 34% - Saving 31.72 MB of 92.04 MB (33258335/96513012)
+[00:00:09] Progress: 34% - Saving 31.87 MB of 92.04 MB (33422175/96513012)
+[00:00:09] Progress: 34% - Saving 32.03 MB of 92.04 MB (33586015/96513012)
+[00:00:09] Progress: 34% - Saving 32.19 MB of 92.04 MB (33749855/96513012)
+[00:00:09] Progress: 35% - Saving 32.34 MB of 92.04 MB (33913695/96513012)
+[00:00:09] Progress: 35% - Saving 32.5 MB of 92.04 MB (34077535/96513012)
+[00:00:09] Progress: 35% - Saving 32.66 MB of 92.04 MB (34241375/96513012)
+[00:00:09] Progress: 35% - Saving 32.81 MB of 92.04 MB (34405215/96513012)
+[00:00:09] Progress: 35% - Saving 32.97 MB of 92.04 MB (34569055/96513012)
+[00:00:09] Progress: 35% - Saving 33.12 MB of 92.04 MB (34732895/96513012)
+[00:00:09] Progress: 36% - Saving 33.28 MB of 92.04 MB (34896735/96513012)
+[00:00:09] Progress: 36% - Saving 33.44 MB of 92.04 MB (35060575/96513012)
+[00:00:09] Progress: 36% - Saving 33.59 MB of 92.04 MB (35224415/96513012)
+[00:00:09] Progress: 36% - Saving 33.75 MB of 92.04 MB (35388255/96513012)
+[00:00:09] Progress: 36% - Saving 33.91 MB of 92.04 MB (35552095/96513012)
+[00:00:09] Progress: 37% - Saving 34.06 MB of 92.04 MB (35715935/96513012)
+[00:00:09] Progress: 37% - Saving 34.22 MB of 92.04 MB (35879775/96513012)
+[00:00:09] Progress: 37% - Saving 34.37 MB of 92.04 MB (36043615/96513012)
+[00:00:09] Progress: 37% - Saving 34.53 MB of 92.04 MB (36207455/96513012)
+[00:00:09] Progress: 37% - Saving 34.69 MB of 92.04 MB (36371295/96513012)
+[00:00:09] Progress: 37% - Saving 34.84 MB of 92.04 MB (36535135/96513012)
+[00:00:09] Progress: 38% - Saving 35 MB of 92.04 MB (36698975/96513012)
+[00:00:09] Progress: 38% - Saving 35.16 MB of 92.04 MB (36862815/96513012)
+[00:00:09] Progress: 38% - Saving 35.31 MB of 92.04 MB (37026655/96513012)
+[00:00:09] Progress: 38% - Saving 35.47 MB of 92.04 MB (37190495/96513012)
+[00:00:09] Progress: 38% - Saving 35.62 MB of 92.04 MB (37354335/96513012)
+[00:00:09] Progress: 38% - Saving 35.78 MB of 92.04 MB (37518175/96513012)
+[00:00:09] Progress: 39% - Saving 35.94 MB of 92.04 MB (37682015/96513012)
+[00:00:09] Progress: 39% - Saving 36.09 MB of 92.04 MB (37845855/96513012)
+[00:00:09] Progress: 39% - Saving 36.25 MB of 92.04 MB (38009695/96513012)
+[00:00:09] Progress: 39% - Saving 36.41 MB of 92.04 MB (38173535/96513012)
+[00:00:09] Progress: 39% - Saving 36.56 MB of 92.04 MB (38337375/96513012)
+[00:00:09] Progress: 39% - Saving 36.72 MB of 92.04 MB (38501215/96513012)
+[00:00:09] Progress: 40% - Saving 36.87 MB of 92.04 MB (38665055/96513012)
+[00:00:09] Progress: 40% - Saving 37.03 MB of 92.04 MB (38828895/96513012)
+[00:00:09] Progress: 40% - Saving 37.19 MB of 92.04 MB (38992735/96513012)
+[00:00:09] Progress: 40% - Saving 37.34 MB of 92.04 MB (39156575/96513012)
+[00:00:09] Progress: 40% - Saving 37.5 MB of 92.04 MB (39320415/96513012)
+[00:00:09] Progress: 40% - Saving 37.66 MB of 92.04 MB (39484255/96513012)
+[00:00:09] Progress: 41% - Saving 37.81 MB of 92.04 MB (39648095/96513012)
+[00:00:09] Progress: 41% - Saving 37.97 MB of 92.04 MB (39811935/96513012)
+[00:00:09] Progress: 41% - Saving 38.12 MB of 92.04 MB (39975775/96513012)
+[00:00:09] Progress: 41% - Saving 38.28 MB of 92.04 MB (40139615/96513012)
+[00:00:09] Progress: 41% - Saving 38.44 MB of 92.04 MB (40303455/96513012)
+[00:00:09] Progress: 41% - Saving 38.59 MB of 92.04 MB (40467295/96513012)
+[00:00:09] Progress: 42% - Saving 38.75 MB of 92.04 MB (40631135/96513012)
+[00:00:09] Progress: 42% - Saving 38.91 MB of 92.04 MB (40794975/96513012)
+[00:00:09] Progress: 42% - Saving 39.06 MB of 92.04 MB (40958815/96513012)
+[00:00:09] Progress: 42% - Saving 39.22 MB of 92.04 MB (41122655/96513012)
+[00:00:09] Progress: 42% - Saving 39.37 MB of 92.04 MB (41286495/96513012)
+[00:00:09] Progress: 42% - Saving 39.53 MB of 92.04 MB (41450335/96513012)
+[00:00:09] Progress: 43% - Saving 39.69 MB of 92.04 MB (41614175/96513012)
+[00:00:09] Progress: 43% - Saving 39.84 MB of 92.04 MB (41778015/96513012)
+[00:00:09] Progress: 43% - Saving 40 MB of 92.04 MB (41941855/96513012)
+[00:00:09] Progress: 43% - Saving 40.16 MB of 92.04 MB (42105695/96513012)
+[00:00:09] Progress: 43% - Saving 40.31 MB of 92.04 MB (42269535/96513012)
+[00:00:09] Progress: 43% - Saving 40.47 MB of 92.04 MB (42433375/96513012)
+[00:00:09] Progress: 44% - Saving 40.62 MB of 92.04 MB (42597215/96513012)
+[00:00:09] Progress: 44% - Saving 40.78 MB of 92.04 MB (42761055/96513012)
+[00:00:09] Progress: 44% - Saving 40.94 MB of 92.04 MB (42924895/96513012)
+[00:00:09] Progress: 44% - Saving 41.09 MB of 92.04 MB (43088735/96513012)
+[00:00:09] Progress: 44% - Saving 41.25 MB of 92.04 MB (43252575/96513012)
+[00:00:09] Progress: 44% - Saving 41.41 MB of 92.04 MB (43416415/96513012)
+[00:00:09] Progress: 45% - Saving 41.56 MB of 92.04 MB (43580255/96513012)
+[00:00:09] Progress: 45% - Saving 41.72 MB of 92.04 MB (43744095/96513012)
+[00:00:09] Progress: 45% - Saving 41.87 MB of 92.04 MB (43907935/96513012)
+[00:00:09] Progress: 45% - Saving 42.03 MB of 92.04 MB (44071775/96513012)
+[00:00:09] Progress: 45% - Saving 42.19 MB of 92.04 MB (44235615/96513012)
+[00:00:09] Progress: 46% - Saving 42.34 MB of 92.04 MB (44399455/96513012)
+[00:00:09] Progress: 46% - Saving 42.5 MB of 92.04 MB (44563295/96513012)
+[00:00:09] Progress: 46% - Saving 42.66 MB of 92.04 MB (44727135/96513012)
+[00:00:09] Progress: 46% - Saving 42.81 MB of 92.04 MB (44890975/96513012)
+[00:00:09] Progress: 46% - Saving 42.97 MB of 92.04 MB (45054815/96513012)
+[00:00:09] Progress: 46% - Saving 43.12 MB of 92.04 MB (45218655/96513012)
+[00:00:09] Progress: 47% - Saving 43.28 MB of 92.04 MB (45382495/96513012)
+[00:00:09] Progress: 47% - Saving 43.44 MB of 92.04 MB (45546335/96513012)
+[00:00:09] Progress: 47% - Saving 43.59 MB of 92.04 MB (45710175/96513012)
+[00:00:09] Progress: 47% - Saving 43.75 MB of 92.04 MB (45874015/96513012)
+[00:00:09] Progress: 47% - Saving 43.91 MB of 92.04 MB (46037855/96513012)
+[00:00:09] Progress: 47% - Saving 44.06 MB of 92.04 MB (46201695/96513012)
+[00:00:09] Progress: 48% - Saving 44.22 MB of 92.04 MB (46365535/96513012)
+[00:00:09] Progress: 48% - Saving 44.37 MB of 92.04 MB (46529375/96513012)
+[00:00:09] Progress: 48% - Saving 44.53 MB of 92.04 MB (46693215/96513012)
+[00:00:09] Progress: 48% - Saving 44.69 MB of 92.04 MB (46857055/96513012)
+[00:00:09] Progress: 48% - Saving 44.84 MB of 92.04 MB (47020895/96513012)
+[00:00:09] Progress: 48% - Saving 45 MB of 92.04 MB (47184735/96513012)
+[00:00:09] Progress: 49% - Saving 45.16 MB of 92.04 MB (47348575/96513012)
+[00:00:09] Progress: 49% - Saving 45.31 MB of 92.04 MB (47512415/96513012)
+[00:00:09] Progress: 49% - Saving 45.47 MB of 92.04 MB (47676255/96513012)
+[00:00:09] Progress: 49% - Saving 45.62 MB of 92.04 MB (47840095/96513012)
+[00:00:09] Progress: 49% - Saving 45.78 MB of 92.04 MB (48003935/96513012)
+[00:00:09] Progress: 49% - Saving 45.94 MB of 92.04 MB (48167775/96513012)
+[00:00:09] Progress: 50% - Saving 46.09 MB of 92.04 MB (48331615/96513012)
+[00:00:09] Progress: 50% - Saving 46.25 MB of 92.04 MB (48495455/96513012)
+[00:00:09] Progress: 50% - Saving 46.41 MB of 92.04 MB (48659295/96513012)
+[00:00:09] Progress: 50% - Saving 46.56 MB of 92.04 MB (48823135/96513012)
+[00:00:09] Progress: 50% - Saving 46.72 MB of 92.04 MB (48986975/96513012)
+[00:00:09] Progress: 50% - Saving 46.87 MB of 92.04 MB (49150815/96513012)
+[00:00:09] Progress: 51% - Saving 47.03 MB of 92.04 MB (49314655/96513012)
+[00:00:09] Progress: 51% - Saving 47.19 MB of 92.04 MB (49478495/96513012)
+[00:00:09] Progress: 51% - Saving 47.34 MB of 92.04 MB (49642335/96513012)
+[00:00:09] Progress: 51% - Saving 47.5 MB of 92.04 MB (49806175/96513012)
+[00:00:09] Progress: 51% - Saving 47.66 MB of 92.04 MB (49970015/96513012)
+[00:00:09] Progress: 51% - Saving 47.81 MB of 92.04 MB (50133855/96513012)
+[00:00:09] Progress: 52% - Saving 47.97 MB of 92.04 MB (50297695/96513012)
+[00:00:09] Progress: 52% - Saving 48.12 MB of 92.04 MB (50461535/96513012)
+[00:00:09] Progress: 52% - Saving 48.28 MB of 92.04 MB (50625375/96513012)
+[00:00:09] Progress: 52% - Saving 48.44 MB of 92.04 MB (50789215/96513012)
+[00:00:09] Progress: 52% - Saving 48.59 MB of 92.04 MB (50953055/96513012)
+[00:00:09] Progress: 52% - Saving 48.75 MB of 92.04 MB (51116895/96513012)
+[00:00:09] Progress: 53% - Saving 48.91 MB of 92.04 MB (51280735/96513012)
+[00:00:09] Progress: 53% - Saving 49.06 MB of 92.04 MB (51444575/96513012)
+[00:00:09] Progress: 53% - Saving 49.22 MB of 92.04 MB (51608415/96513012)
+[00:00:09] Progress: 53% - Saving 49.37 MB of 92.04 MB (51772255/96513012)
+[00:00:09] Progress: 53% - Saving 49.53 MB of 92.04 MB (51936095/96513012)
+[00:00:09] Progress: 53% - Saving 49.69 MB of 92.04 MB (52099935/96513012)
+[00:00:09] Progress: 54% - Saving 49.84 MB of 92.04 MB (52263775/96513012)
+[00:00:09] Progress: 54% - Saving 50 MB of 92.04 MB (52427615/96513012)
+[00:00:09] Progress: 54% - Saving 50.16 MB of 92.04 MB (52591455/96513012)
+[00:00:09] Progress: 54% - Saving 50.31 MB of 92.04 MB (52755295/96513012)
+[00:00:09] Progress: 54% - Saving 50.47 MB of 92.04 MB (52919135/96513012)
+[00:00:09] Progress: 55% - Saving 50.62 MB of 92.04 MB (53082975/96513012)
+[00:00:09] Progress: 55% - Saving 50.78 MB of 92.04 MB (53246815/96513012)
+[00:00:09] Progress: 55% - Saving 50.94 MB of 92.04 MB (53410655/96513012)
+[00:00:09] Progress: 55% - Saving 51.09 MB of 92.04 MB (53574495/96513012)
+[00:00:09] Progress: 55% - Saving 51.25 MB of 92.04 MB (53738335/96513012)
+[00:00:09] Progress: 55% - Saving 51.41 MB of 92.04 MB (53902175/96513012)
+[00:00:09] Progress: 56% - Saving 51.56 MB of 92.04 MB (54066015/96513012)
+[00:00:09] Progress: 56% - Saving 51.72 MB of 92.04 MB (54229855/96513012)
+[00:00:09] Progress: 56% - Saving 51.87 MB of 92.04 MB (54393695/96513012)
+[00:00:09] Progress: 56% - Saving 52.03 MB of 92.04 MB (54557535/96513012)
+[00:00:09] Progress: 56% - Saving 52.19 MB of 92.04 MB (54721375/96513012)
+[00:00:09] Progress: 56% - Saving 52.34 MB of 92.04 MB (54885215/96513012)
+[00:00:09] Progress: 57% - Saving 52.5 MB of 92.04 MB (55049055/96513012)
+[00:00:09] Progress: 57% - Saving 52.66 MB of 92.04 MB (55212895/96513012)
+[00:00:09] Progress: 57% - Saving 52.81 MB of 92.04 MB (55376735/96513012)
+[00:00:09] Progress: 57% - Saving 52.97 MB of 92.04 MB (55540575/96513012)
+[00:00:09] Progress: 57% - Saving 53.12 MB of 92.04 MB (55704415/96513012)
+[00:00:09] Progress: 57% - Saving 53.28 MB of 92.04 MB (55868255/96513012)
+[00:00:09] Progress: 58% - Saving 53.44 MB of 92.04 MB (56032095/96513012)
+[00:00:09] Progress: 58% - Saving 53.59 MB of 92.04 MB (56195935/96513012)
+[00:00:09] Progress: 58% - Saving 53.75 MB of 92.04 MB (56359775/96513012)
+[00:00:09] Progress: 58% - Saving 53.91 MB of 92.04 MB (56523615/96513012)
+[00:00:09] Progress: 58% - Saving 54.06 MB of 92.04 MB (56687455/96513012)
+[00:00:09] Progress: 58% - Saving 54.22 MB of 92.04 MB (56851295/96513012)
+[00:00:09] Progress: 59% - Saving 54.37 MB of 92.04 MB (57015135/96513012)
+[00:00:09] Progress: 59% - Saving 54.53 MB of 92.04 MB (57178975/96513012)
+[00:00:09] Progress: 59% - Saving 54.69 MB of 92.04 MB (57342815/96513012)
+[00:00:09] Progress: 59% - Saving 54.84 MB of 92.04 MB (57506655/96513012)
+[00:00:09] Progress: 59% - Saving 55 MB of 92.04 MB (57670495/96513012)
+[00:00:09] Progress: 59% - Saving 55.16 MB of 92.04 MB (57834335/96513012)
+[00:00:09] Progress: 60% - Saving 55.31 MB of 92.04 MB (57998175/96513012)
+[00:00:09] Progress: 60% - Saving 55.47 MB of 92.04 MB (58162015/96513012)
+[00:00:09] Progress: 60% - Saving 55.62 MB of 92.04 MB (58325855/96513012)
+[00:00:09] Progress: 60% - Saving 55.78 MB of 92.04 MB (58489695/96513012)
+[00:00:09] Progress: 60% - Saving 55.94 MB of 92.04 MB (58653535/96513012)
+[00:00:09] Progress: 60% - Saving 56.09 MB of 92.04 MB (58817375/96513012)
+[00:00:09] Progress: 61% - Saving 56.25 MB of 92.04 MB (58981215/96513012)
+[00:00:09] Progress: 61% - Saving 56.41 MB of 92.04 MB (59145055/96513012)
+[00:00:09] Progress: 61% - Saving 56.56 MB of 92.04 MB (59308895/96513012)
+[00:00:09] Progress: 61% - Saving 56.72 MB of 92.04 MB (59472735/96513012)
+[00:00:09] Progress: 61% - Saving 56.87 MB of 92.04 MB (59636575/96513012)
+[00:00:09] Progress: 61% - Saving 57.03 MB of 92.04 MB (59800415/96513012)
+[00:00:09] Progress: 62% - Saving 57.19 MB of 92.04 MB (59964255/96513012)
+[00:00:09] Progress: 62% - Saving 57.34 MB of 92.04 MB (60128095/96513012)
+[00:00:09] Progress: 62% - Saving 57.5 MB of 92.04 MB (60291935/96513012)
+[00:00:09] Progress: 62% - Saving 57.66 MB of 92.04 MB (60455775/96513012)
+[00:00:09] Progress: 62% - Saving 57.81 MB of 92.04 MB (60619615/96513012)
+[00:00:09] Progress: 62% - Saving 57.97 MB of 92.04 MB (60783455/96513012)
+[00:00:09] Progress: 63% - Saving 58.12 MB of 92.04 MB (60947295/96513012)
+[00:00:09] Progress: 63% - Saving 58.28 MB of 92.04 MB (61111135/96513012)
+[00:00:09] Progress: 63% - Saving 58.44 MB of 92.04 MB (61274975/96513012)
+[00:00:09] Progress: 63% - Saving 58.59 MB of 92.04 MB (61438815/96513012)
+[00:00:09] Progress: 63% - Saving 58.75 MB of 92.04 MB (61602655/96513012)
+[00:00:09] Progress: 63% - Saving 58.91 MB of 92.04 MB (61766495/96513012)
+[00:00:09] Progress: 64% - Saving 59.06 MB of 92.04 MB (61930335/96513012)
+[00:00:09] Progress: 64% - Saving 59.22 MB of 92.04 MB (62094175/96513012)
+[00:00:09] Progress: 64% - Saving 59.37 MB of 92.04 MB (62258015/96513012)
+[00:00:09] Progress: 64% - Saving 59.53 MB of 92.04 MB (62421855/96513012)
+[00:00:09] Progress: 64% - Saving 59.69 MB of 92.04 MB (62585695/96513012)
+[00:00:09] Progress: 65% - Saving 59.84 MB of 92.04 MB (62749535/96513012)
+[00:00:09] Progress: 65% - Saving 60 MB of 92.04 MB (62913375/96513012)
+[00:00:09] Progress: 65% - Saving 60.16 MB of 92.04 MB (63077215/96513012)
+[00:00:09] Progress: 65% - Saving 60.31 MB of 92.04 MB (63241055/96513012)
+[00:00:09] Progress: 65% - Saving 60.47 MB of 92.04 MB (63404895/96513012)
+[00:00:09] Progress: 65% - Saving 60.62 MB of 92.04 MB (63568735/96513012)
+[00:00:09] Progress: 66% - Saving 60.78 MB of 92.04 MB (63732575/96513012)
+[00:00:09] Progress: 66% - Saving 60.94 MB of 92.04 MB (63896415/96513012)
+[00:00:09] Progress: 66% - Saving 61.09 MB of 92.04 MB (64060255/96513012)
+[00:00:09] Progress: 66% - Saving 61.25 MB of 92.04 MB (64224095/96513012)
+[00:00:09] Progress: 66% - Saving 61.41 MB of 92.04 MB (64387935/96513012)
+[00:00:09] Progress: 66% - Saving 61.56 MB of 92.04 MB (64551775/96513012)
+[00:00:09] Progress: 67% - Saving 61.72 MB of 92.04 MB (64715615/96513012)
+[00:00:09] Progress: 67% - Saving 61.87 MB of 92.04 MB (64879455/96513012)
+[00:00:09] Progress: 67% - Saving 62.03 MB of 92.04 MB (65043295/96513012)
+[00:00:09] Progress: 67% - Saving 62.19 MB of 92.04 MB (65207135/96513012)
+[00:00:09] Progress: 67% - Saving 62.34 MB of 92.04 MB (65370975/96513012)
+[00:00:09] Progress: 67% - Saving 62.5 MB of 92.04 MB (65534815/96513012)
+[00:00:09] Progress: 68% - Saving 62.66 MB of 92.04 MB (65698655/96513012)
+[00:00:09] Progress: 68% - Saving 62.81 MB of 92.04 MB (65862495/96513012)
+[00:00:09] Progress: 68% - Saving 62.97 MB of 92.04 MB (66026335/96513012)
+[00:00:09] Progress: 68% - Saving 63.12 MB of 92.04 MB (66190175/96513012)
+[00:00:09] Progress: 68% - Saving 63.28 MB of 92.04 MB (66354015/96513012)
+[00:00:09] Progress: 68% - Saving 63.44 MB of 92.04 MB (66517855/96513012)
+[00:00:09] Progress: 69% - Saving 63.59 MB of 92.04 MB (66681695/96513012)
+[00:00:09] Progress: 69% - Saving 63.75 MB of 92.04 MB (66845535/96513012)
+[00:00:09] Progress: 69% - Saving 63.91 MB of 92.04 MB (67009375/96513012)
+[00:00:09] Progress: 69% - Saving 64.06 MB of 92.04 MB (67173215/96513012)
+[00:00:09] Progress: 69% - Saving 64.22 MB of 92.04 MB (67337055/96513012)
+[00:00:09] Progress: 69% - Saving 64.37 MB of 92.04 MB (67500895/96513012)
+[00:00:09] Progress: 70% - Saving 64.53 MB of 92.04 MB (67664735/96513012)
+[00:00:09] Progress: 70% - Saving 64.69 MB of 92.04 MB (67828575/96513012)
+[00:00:09] Progress: 70% - Saving 64.84 MB of 92.04 MB (67992415/96513012)
+[00:00:09] Progress: 70% - Saving 65 MB of 92.04 MB (68156255/96513012)
+[00:00:09] Progress: 70% - Saving 65.16 MB of 92.04 MB (68320095/96513012)
+[00:00:09] Progress: 70% - Saving 65.31 MB of 92.04 MB (68483935/96513012)
+[00:00:09] Progress: 71% - Saving 65.47 MB of 92.04 MB (68647775/96513012)
+[00:00:09] Progress: 71% - Saving 65.62 MB of 92.04 MB (68811615/96513012)
+[00:00:09] Progress: 71% - Saving 65.78 MB of 92.04 MB (68975455/96513012)
+[00:00:09] Progress: 71% - Saving 65.94 MB of 92.04 MB (69139295/96513012)
+[00:00:09] Progress: 71% - Saving 66.09 MB of 92.04 MB (69303135/96513012)
+[00:00:09] Progress: 71% - Saving 66.25 MB of 92.04 MB (69466975/96513012)
+[00:00:09] Progress: 72% - Saving 66.41 MB of 92.04 MB (69630815/96513012)
+[00:00:09] Progress: 72% - Saving 66.56 MB of 92.04 MB (69794655/96513012)
+[00:00:09] Progress: 72% - Saving 66.72 MB of 92.04 MB (69958495/96513012)
+[00:00:09] Progress: 72% - Saving 66.87 MB of 92.04 MB (70122335/96513012)
+[00:00:09] Progress: 72% - Saving 67.03 MB of 92.04 MB (70286175/96513012)
+[00:00:09] Progress: 72% - Saving 67.19 MB of 92.04 MB (70450015/96513012)
+[00:00:09] Progress: 73% - Saving 67.34 MB of 92.04 MB (70613855/96513012)
+[00:00:09] Progress: 73% - Saving 67.5 MB of 92.04 MB (70777695/96513012)
+[00:00:09] Progress: 73% - Saving 67.66 MB of 92.04 MB (70941535/96513012)
+[00:00:09] Progress: 73% - Saving 67.81 MB of 92.04 MB (71105375/96513012)
+[00:00:09] Progress: 73% - Saving 67.97 MB of 92.04 MB (71269215/96513012)
+[00:00:09] Progress: 74% - Saving 68.12 MB of 92.04 MB (71433055/96513012)
+[00:00:09] Progress: 74% - Saving 68.28 MB of 92.04 MB (71596895/96513012)
+[00:00:09] Progress: 74% - Saving 68.44 MB of 92.04 MB (71760735/96513012)
+[00:00:09] Progress: 74% - Saving 68.59 MB of 92.04 MB (71924575/96513012)
+[00:00:09] Progress: 74% - Saving 68.75 MB of 92.04 MB (72088415/96513012)
+[00:00:09] Progress: 74% - Saving 68.91 MB of 92.04 MB (72252255/96513012)
+[00:00:09] Progress: 75% - Saving 69.06 MB of 92.04 MB (72416095/96513012)
+[00:00:09] Progress: 75% - Saving 69.22 MB of 92.04 MB (72579935/96513012)
+[00:00:09] Progress: 75% - Saving 69.37 MB of 92.04 MB (72743775/96513012)
+[00:00:09] Progress: 75% - Saving 69.53 MB of 92.04 MB (72907615/96513012)
+[00:00:09] Progress: 75% - Saving 69.69 MB of 92.04 MB (73071455/96513012)
+[00:00:09] Progress: 75% - Saving 69.84 MB of 92.04 MB (73235295/96513012)
+[00:00:09] Progress: 76% - Saving 70 MB of 92.04 MB (73399135/96513012)
+[00:00:09] Progress: 76% - Saving 70.16 MB of 92.04 MB (73562975/96513012)
+[00:00:09] Progress: 76% - Saving 70.31 MB of 92.04 MB (73726815/96513012)
+[00:00:09] Progress: 76% - Saving 70.47 MB of 92.04 MB (73890655/96513012)
+[00:00:09] Progress: 76% - Saving 70.62 MB of 92.04 MB (74054495/96513012)
+[00:00:09] Progress: 76% - Saving 70.78 MB of 92.04 MB (74218335/96513012)
+[00:00:09] Progress: 77% - Saving 70.94 MB of 92.04 MB (74382175/96513012)
+[00:00:09] Progress: 77% - Saving 71.09 MB of 92.04 MB (74546015/96513012)
+[00:00:09] Progress: 77% - Saving 71.25 MB of 92.04 MB (74709855/96513012)
+[00:00:09] Progress: 77% - Saving 71.41 MB of 92.04 MB (74873695/96513012)
+[00:00:09] Progress: 77% - Saving 71.56 MB of 92.04 MB (75037535/96513012)
+[00:00:09] Progress: 77% - Saving 71.72 MB of 92.04 MB (75201375/96513012)
+[00:00:09] Progress: 78% - Saving 71.87 MB of 92.04 MB (75365215/96513012)
+[00:00:09] Progress: 78% - Saving 72.03 MB of 92.04 MB (75529055/96513012)
+[00:00:09] Progress: 78% - Saving 72.19 MB of 92.04 MB (75692895/96513012)
+[00:00:10] Progress: 78% - Saving 72.34 MB of 92.04 MB (75856735/96513012)
+[00:00:10] Progress: 78% - Saving 72.5 MB of 92.04 MB (76020575/96513012)
+[00:00:10] Progress: 78% - Saving 72.66 MB of 92.04 MB (76184415/96513012)
+[00:00:10] Progress: 79% - Saving 72.81 MB of 92.04 MB (76348255/96513012)
+[00:00:10] Progress: 79% - Saving 72.97 MB of 92.04 MB (76512095/96513012)
+[00:00:10] Progress: 79% - Saving 73.12 MB of 92.04 MB (76675935/96513012)
+[00:00:10] Progress: 79% - Saving 73.28 MB of 92.04 MB (76839775/96513012)
+[00:00:10] Progress: 79% - Saving 73.44 MB of 92.04 MB (77003615/96513012)
+[00:00:10] Progress: 79% - Saving 73.59 MB of 92.04 MB (77167455/96513012)
+[00:00:10] Progress: 80% - Saving 73.75 MB of 92.04 MB (77331295/96513012)
+[00:00:10] Progress: 80% - Saving 73.91 MB of 92.04 MB (77495135/96513012)
+[00:00:10] Progress: 80% - Saving 74.06 MB of 92.04 MB (77658975/96513012)
+[00:00:10] Progress: 80% - Saving 74.22 MB of 92.04 MB (77822815/96513012)
+[00:00:10] Progress: 80% - Saving 74.37 MB of 92.04 MB (77986655/96513012)
+[00:00:10] Progress: 80% - Saving 74.53 MB of 92.04 MB (78150495/96513012)
+[00:00:10] Progress: 81% - Saving 74.69 MB of 92.04 MB (78314335/96513012)
+[00:00:10] Progress: 81% - Saving 74.84 MB of 92.04 MB (78478175/96513012)
+[00:00:10] Progress: 81% - Saving 75 MB of 92.04 MB (78642015/96513012)
+[00:00:10] Progress: 81% - Saving 75.16 MB of 92.04 MB (78805855/96513012)
+[00:00:10] Progress: 81% - Saving 75.31 MB of 92.04 MB (78969695/96513012)
+[00:00:10] Progress: 81% - Saving 75.47 MB of 92.04 MB (79133535/96513012)
+[00:00:10] Progress: 82% - Saving 75.62 MB of 92.04 MB (79297375/96513012)
+[00:00:10] Progress: 82% - Saving 75.78 MB of 92.04 MB (79461215/96513012)
+[00:00:10] Progress: 82% - Saving 75.94 MB of 92.04 MB (79625055/96513012)
+[00:00:10] Progress: 82% - Saving 76.09 MB of 92.04 MB (79788895/96513012)
+[00:00:10] Progress: 82% - Saving 76.25 MB of 92.04 MB (79952735/96513012)
+[00:00:10] Progress: 83% - Saving 76.41 MB of 92.04 MB (80116575/96513012)
+[00:00:10] Progress: 83% - Saving 76.56 MB of 92.04 MB (80280415/96513012)
+[00:00:10] Progress: 83% - Saving 76.72 MB of 92.04 MB (80444255/96513012)
+[00:00:10] Progress: 83% - Saving 76.87 MB of 92.04 MB (80608095/96513012)
+[00:00:10] Progress: 83% - Saving 77.03 MB of 92.04 MB (80771935/96513012)
+[00:00:10] Progress: 83% - Saving 77.19 MB of 92.04 MB (80935775/96513012)
+[00:00:10] Progress: 84% - Saving 77.34 MB of 92.04 MB (81099615/96513012)
+[00:00:10] Progress: 84% - Saving 77.5 MB of 92.04 MB (81263455/96513012)
+[00:00:10] Progress: 84% - Saving 77.66 MB of 92.04 MB (81427295/96513012)
+[00:00:10] Progress: 84% - Saving 77.81 MB of 92.04 MB (81591135/96513012)
+[00:00:10] Progress: 84% - Saving 77.97 MB of 92.04 MB (81754975/96513012)
+[00:00:10] Progress: 84% - Saving 78.12 MB of 92.04 MB (81918815/96513012)
+[00:00:10] Progress: 85% - Saving 78.28 MB of 92.04 MB (82082655/96513012)
+[00:00:10] Progress: 85% - Saving 78.44 MB of 92.04 MB (82246495/96513012)
+[00:00:10] Progress: 85% - Saving 78.59 MB of 92.04 MB (82410335/96513012)
+[00:00:10] Progress: 85% - Saving 78.75 MB of 92.04 MB (82574175/96513012)
+[00:00:10] Progress: 85% - Saving 78.91 MB of 92.04 MB (82738015/96513012)
+[00:00:10] Progress: 85% - Saving 79.06 MB of 92.04 MB (82901855/96513012)
+[00:00:10] Progress: 86% - Saving 79.22 MB of 92.04 MB (83065695/96513012)
+[00:00:10] Progress: 86% - Saving 79.37 MB of 92.04 MB (83229535/96513012)
+[00:00:10] Progress: 86% - Saving 79.53 MB of 92.04 MB (83393375/96513012)
+[00:00:10] Progress: 86% - Saving 79.69 MB of 92.04 MB (83557215/96513012)
+[00:00:10] Progress: 86% - Saving 79.84 MB of 92.04 MB (83721055/96513012)
+[00:00:10] Progress: 86% - Saving 80 MB of 92.04 MB (83884895/96513012)
+[00:00:10] Progress: 87% - Saving 80.16 MB of 92.04 MB (84048735/96513012)
+[00:00:10] Progress: 87% - Saving 80.31 MB of 92.04 MB (84212575/96513012)
+[00:00:10] Progress: 87% - Saving 80.47 MB of 92.04 MB (84376415/96513012)
+[00:00:10] Progress: 87% - Saving 80.62 MB of 92.04 MB (84540255/96513012)
+[00:00:10] Progress: 87% - Saving 80.78 MB of 92.04 MB (84704095/96513012)
+[00:00:10] Progress: 87% - Saving 80.94 MB of 92.04 MB (84867935/96513012)
+[00:00:10] Progress: 88% - Saving 81.09 MB of 92.04 MB (85031775/96513012)
+[00:00:10] Progress: 88% - Saving 81.25 MB of 92.04 MB (85195615/96513012)
+[00:00:10] Progress: 88% - Saving 81.41 MB of 92.04 MB (85359455/96513012)
+[00:00:10] Progress: 88% - Saving 81.56 MB of 92.04 MB (85523295/96513012)
+[00:00:10] Progress: 88% - Saving 81.72 MB of 92.04 MB (85687135/96513012)
+[00:00:10] Progress: 88% - Saving 81.87 MB of 92.04 MB (85850975/96513012)
+[00:00:10] Progress: 89% - Saving 82.03 MB of 92.04 MB (86014815/96513012)
+[00:00:10] Progress: 89% - Saving 82.19 MB of 92.04 MB (86178655/96513012)
+[00:00:10] Progress: 89% - Saving 82.34 MB of 92.04 MB (86342495/96513012)
+[00:00:10] Progress: 89% - Saving 82.5 MB of 92.04 MB (86506335/96513012)
+[00:00:10] Progress: 89% - Saving 82.66 MB of 92.04 MB (86670175/96513012)
+[00:00:10] Progress: 89% - Saving 82.81 MB of 92.04 MB (86834015/96513012)
+[00:00:10] Progress: 90% - Saving 82.97 MB of 92.04 MB (86997855/96513012)
+[00:00:10] Progress: 90% - Saving 83.12 MB of 92.04 MB (87161695/96513012)
+[00:00:10] Progress: 90% - Saving 83.28 MB of 92.04 MB (87325535/96513012)
+[00:00:10] Progress: 90% - Saving 83.44 MB of 92.04 MB (87489375/96513012)
+[00:00:10] Progress: 90% - Saving 83.59 MB of 92.04 MB (87653215/96513012)
+[00:00:10] Progress: 90% - Saving 83.75 MB of 92.04 MB (87817055/96513012)
+[00:00:10] Progress: 91% - Saving 83.91 MB of 92.04 MB (87980895/96513012)
+[00:00:10] Progress: 91% - Saving 84.06 MB of 92.04 MB (88144735/96513012)
+[00:00:10] Progress: 91% - Saving 84.22 MB of 92.04 MB (88308575/96513012)
+[00:00:10] Progress: 91% - Saving 84.37 MB of 92.04 MB (88472415/96513012)
+[00:00:10] Progress: 91% - Saving 84.53 MB of 92.04 MB (88636255/96513012)
+[00:00:10] Progress: 92% - Saving 84.69 MB of 92.04 MB (88800095/96513012)
+[00:00:10] Progress: 92% - Saving 84.84 MB of 92.04 MB (88963935/96513012)
+[00:00:10] Progress: 92% - Saving 85 MB of 92.04 MB (89127775/96513012)
+[00:00:10] Progress: 92% - Saving 85.16 MB of 92.04 MB (89291615/96513012)
+[00:00:10] Progress: 92% - Saving 85.31 MB of 92.04 MB (89455455/96513012)
+[00:00:10] Progress: 92% - Saving 85.47 MB of 92.04 MB (89619295/96513012)
+[00:00:10] Progress: 93% - Saving 85.62 MB of 92.04 MB (89783135/96513012)
+[00:00:10] Progress: 93% - Saving 85.78 MB of 92.04 MB (89946975/96513012)
+[00:00:10] Progress: 93% - Saving 85.94 MB of 92.04 MB (90110815/96513012)
+[00:00:10] Progress: 93% - Saving 86.09 MB of 92.04 MB (90274655/96513012)
+[00:00:10] Progress: 93% - Saving 86.25 MB of 92.04 MB (90438495/96513012)
+[00:00:10] Progress: 93% - Saving 86.41 MB of 92.04 MB (90602335/96513012)
+[00:00:10] Progress: 94% - Saving 86.56 MB of 92.04 MB (90766175/96513012)
+[00:00:10] Progress: 94% - Saving 86.72 MB of 92.04 MB (90930015/96513012)
+[00:00:10] Progress: 94% - Saving 86.87 MB of 92.04 MB (91093855/96513012)
+[00:00:10] Progress: 94% - Saving 87.03 MB of 92.04 MB (91257695/96513012)
+[00:00:10] Progress: 94% - Saving 87.19 MB of 92.04 MB (91421535/96513012)
+[00:00:10] Progress: 94% - Saving 87.34 MB of 92.04 MB (91585375/96513012)
+[00:00:10] Progress: 95% - Saving 87.5 MB of 92.04 MB (91749215/96513012)
+[00:00:10] Progress: 95% - Saving 87.66 MB of 92.04 MB (91913055/96513012)
+[00:00:10] Progress: 95% - Saving 87.81 MB of 92.04 MB (92076895/96513012)
+[00:00:10] Progress: 95% - Saving 87.97 MB of 92.04 MB (92240735/96513012)
+[00:00:10] Progress: 95% - Saving 88.12 MB of 92.04 MB (92404575/96513012)
+[00:00:10] Progress: 95% - Saving 88.28 MB of 92.04 MB (92568415/96513012)
+[00:00:10] Progress: 96% - Saving 88.44 MB of 92.04 MB (92732255/96513012)
+[00:00:10] Progress: 96% - Saving 88.59 MB of 92.04 MB (92896095/96513012)
+[00:00:10] Progress: 96% - Saving 88.75 MB of 92.04 MB (93059935/96513012)
+[00:00:10] Progress: 96% - Saving 88.91 MB of 92.04 MB (93223775/96513012)
+[00:00:10] Progress: 96% - Saving 89.06 MB of 92.04 MB (93387615/96513012)
+[00:00:10] Progress: 96% - Saving 89.22 MB of 92.04 MB (93551455/96513012)
+[00:00:10] Progress: 97% - Saving 89.37 MB of 92.04 MB (93715295/96513012)
+[00:00:10] Progress: 97% - Saving 89.53 MB of 92.04 MB (93879135/96513012)
+[00:00:10] Progress: 97% - Saving 89.69 MB of 92.04 MB (94042975/96513012)
+[00:00:10] Progress: 97% - Saving 89.84 MB of 92.04 MB (94206815/96513012)
+[00:00:10] Progress: 97% - Saving 90 MB of 92.04 MB (94370655/96513012)
+[00:00:10] Progress: 97% - Saving 90.16 MB of 92.04 MB (94534495/96513012)
+[00:00:10] Progress: 98% - Saving 90.31 MB of 92.04 MB (94698335/96513012)
+[00:00:10] Progress: 98% - Saving 90.47 MB of 92.04 MB (94862175/96513012)
+[00:00:10] Progress: 98% - Saving 90.62 MB of 92.04 MB (95026015/96513012)
+[00:00:10] Progress: 98% - Saving 90.78 MB of 92.04 MB (95189855/96513012)
+[00:00:10] Progress: 98% - Saving 90.94 MB of 92.04 MB (95353695/96513012)
+[00:00:10] Progress: 98% - Saving 91.09 MB of 92.04 MB (95517535/96513012)
+[00:00:10] Progress: 99% - Saving 91.25 MB of 92.04 MB (95681375/96513012)
+[00:00:10] Progress: 99% - Saving 91.41 MB of 92.04 MB (95845215/96513012)
+[00:00:10] Progress: 99% - Saving 91.56 MB of 92.04 MB (96009055/96513012)
+[00:00:10] Progress: 99% - Saving 91.72 MB of 92.04 MB (96172895/96513012)
+[00:00:10] Progress: 99% - Saving 91.87 MB of 92.04 MB (96336735/96513012)
+[00:00:10] Progress: 99% - Saving 92.03 MB of 92.04 MB (96500575/96513012)
+[00:00:10] Progress: 100% - Completed download of C:\Users\appveyor\AppData\Local\Temp\golang\1.8.1\go1.8.1.windows-amd64.zip (92.04 MB).
+[00:00:10] Download of go1.8.1.windows-amd64.zip (92.04 MB) completed.
+[00:00:14] Hashes match.
+[00:00:14] Extracting C:\Users\appveyor\AppData\Local\Temp\golang\1.8.1\go1.8.1.windows-amd64.zip to C:\tools...
+[00:00:25] C:\tools
+[00:00:26] PATH environment variable does not have C:\tools\go\bin in it. Adding...
+[00:00:26] Environment Vars (like PATH) have changed. Close/reopen your shell to
+[00:00:26]  see the changes (or in powershell/cmd.exe just type `refreshenv`).
+[00:00:26]  The install of golang was successful.
+[00:00:26]   Software installed to 'C:\tools'
+[00:00:26] 
+[00:00:26] Chocolatey installed 1/1 packages. 0 packages failed.
+[00:00:26]  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+[00:00:26] cinst InnoSetup -y
+[00:00:27] Chocolatey v0.10.3
+[00:00:27] Installing the following packages:
+[00:00:27] InnoSetup
+[00:00:27] By installing you accept licenses for the packages.
+[00:00:29] 
+[00:00:29] chocolatey-core.extension v1.3.0 [Approved]
+[00:00:29] chocolatey-core.extension package files install completed. Performing other installation steps.
+[00:00:31]  Installed/updated chocolatey-core extensions.
+[00:00:31]  The install of chocolatey-core.extension was successful.
+[00:00:31]   Software installed to 'C:\ProgramData\chocolatey\extensions\chocolatey-core'
+[00:00:31] 
+[00:00:31] InnoSetup v5.5.9.20161208 [Approved]
+[00:00:31] innosetup package files install completed. Performing other installation steps.
+[00:00:32] Installing innosetup...
+[00:00:34] innosetup has been installed.
+[00:00:35] innosetup installed to 'C:\Program Files (x86)\Inno Setup 5'
+[00:00:36] Added C:\ProgramData\chocolatey\bin\ISCC.exe shim pointed to 'c:\program files (x86)\inno setup 5\iscc.exe'.
+[00:00:36]  The install of innosetup was successful.
+[00:00:36]   Software installed as 'exe', install location is likely default.
+[00:00:36] 
+[00:00:36] Chocolatey installed 2/2 packages. 0 packages failed.
+[00:00:36]  See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+[00:00:36] refreshenv
+[00:00:36] Refreshing environment variables from registry for cmd.exe. Please wait...Finished..
+[00:00:36] echo "Go directories in machine PATH environment:"
+[00:00:36] [environment]::GetEnvironmentVariable("PATH","Machine").split(";") | Select-String -Pattern "\\go\\"
+[00:00:36] echo "Go directories in user PATH environment:"
+[00:00:36] [environment]::GetEnvironmentVariable("PATH","User").split(";") | Select-String -Pattern "\\go\\"
+[00:00:36] echo "Go directories in process PATH environment:"
+[00:00:36] [environment]::GetEnvironmentVariable("PATH","Process").split(";") | Select-String -Pattern "\\go\\"
+[00:00:36] echo "Go version information:"
+[00:00:36] go version
+[00:00:36] 
+[00:00:36] Go directories in machine PATH environment:
+[00:00:36] 
+[00:00:36] C:\go\bin
+[00:00:36] C:\tools\go\bin
+[00:00:36] Go directories in user PATH environment:
+[00:00:36] Go directories in process PATH environment:
+[00:00:36] C:\go\bin
+[00:00:36] C:\tools\go\bin
+[00:00:36] Go version information:
+[00:00:36] go version go1.8.1 windows/amd64
+[00:00:36] 
+[00:00:36] 
+[00:00:36] bash --login -c 'GOARCH=386 script/bootstrap'
+[00:00:37] Installing goversioninfo to embed resources into Windows executables...
+[00:00:45] Creating the resource.syso version information file...
+[00:00:47] Using go1.8.1
+[00:00:55] mv bin\git-lfs.exe git-lfs-x86.exe
+[00:00:56] bash --login -c 'GOARCH=amd64 script/bootstrap'
+[00:00:56] Installing goversioninfo to embed resources into Windows executables...
+[00:00:56] Creating the resource.syso version information file...
+[00:00:57] commands\mancontent_gen.go
+[00:00:59] Using go1.8.1
+[00:01:02] mv bin\git-lfs.exe git-lfs-x64.exe
+[00:01:02] iscc script\windows-installer\inno-setup-git-lfs-installer.iss
+[00:01:02] Inno Setup 5 Command-Line Compiler
+[00:01:02] Copyright (C) 1997-2016 Jordan Russell. All rights reserved.
+[00:01:02] Portions Copyright (C) 2000-2016 Martijn Laan
+[00:01:02] Inno Setup Preprocessor
+[00:01:02] Copyright (C) 2001-2004 Alex Yackimoff. All rights reserved.
+[00:01:02] 
+[00:01:02] Compiler engine version: Inno Setup 5.5.9 (u)
+[00:01:02] 
+[00:01:02] [ISPP] Preprocessing.
+[00:01:02] [ISPP] Preprocessed.
+[00:01:02] 
+[00:01:02] Parsing [Setup] section, line 17
+[00:01:02] Parsing [Setup] section, line 18
+[00:01:02] Parsing [Setup] section, line 19
+[00:01:02] Parsing [Setup] section, line 20
+[00:01:02] Parsing [Setup] section, line 21
+[00:01:02] Parsing [Setup] section, line 22
+[00:01:02] Parsing [Setup] section, line 23
+[00:01:02] Parsing [Setup] section, line 24
+[00:01:02] Parsing [Setup] section, line 25
+[00:01:02] Parsing [Setup] section, line 26
+[00:01:02] Parsing [Setup] section, line 27
+[00:01:02] Parsing [Setup] section, line 28
+[00:01:02] Parsing [Setup] section, line 29
+[00:01:02] Parsing [Setup] section, line 30
+[00:01:02] Parsing [Setup] section, line 31
+[00:01:02] Parsing [Setup] section, line 32
+[00:01:02] Parsing [Setup] section, line 33
+[00:01:02] Parsing [Setup] section, line 34
+[00:01:02] Parsing [Setup] section, line 35
+[00:01:02] Parsing [Setup] section, line 36
+[00:01:02] Parsing [Setup] section, line 37
+[00:01:02] Parsing [Setup] section, line 38
+[00:01:02] Parsing [Setup] section, line 39
+[00:01:02] Parsing [Setup] section, line 40
+[00:01:02] Reading file (LicenseFile)
+[00:01:02] Reading file (WizardImageFile)
+[00:01:02]    File: C:\Users\appveyor\go\src\github.com\git-lfs\git-lfs\script\windows-installer\git-lfs-wizard-image.bmp
+[00:01:02] Reading file (WizardSmallImageFile)
+[00:01:02]    File: C:\Users\appveyor\go\src\github.com\git-lfs\git-lfs\script\windows-installer\git-lfs-logo.bmp
+[00:01:02] Preparing Setup program executable
+[00:01:02]    Updating icons (SETUP.E32)
+[00:01:02] Determining language code pages
+[00:01:02] Parsing [Languages] section, line 43
+[00:01:02]    File: c:\program files (x86)\inno setup 5\Default.isl
+[00:01:02]    Messages in script file
+[00:01:02] Reading default messages from Default.isl
+[00:01:02] Parsing [Languages] section, line 43
+[00:01:02]    File: c:\program files (x86)\inno setup 5\Default.isl
+[00:01:02] Parsing [LangOptions], [Messages], and [CustomMessages] sections
+[00:01:02]    Messages in script file
+[00:01:02] Reading [Code] section
+[00:01:02] Parsing [Registry] section, line 55
+[00:01:02] Parsing [Registry] section, line 56
+[00:01:02] Parsing [Registry] section, line 57
+[00:01:02] Parsing [Registry] section, line 58
+[00:01:02] Parsing [Run] section, line 48
+[00:01:02] Parsing [Files] section, line 51
+[00:01:02] Parsing [Files] section, line 52
+[00:01:02] Compiling [Code] section
+[00:01:02] Creating setup files
+[00:01:02]    Updating icons (SETUP.EXE)
+[00:01:02]    Compressing: C:\Users\appveyor\go\src\github.com\git-lfs\git-lfs\script\windows-installer\..\..\git-lfs-x64.exe
+[00:01:02]    Compressing: C:\Users\appveyor\go\src\github.com\git-lfs\git-lfs\script\windows-installer\..\..\git-lfs-x86.exe
+[00:01:06]    Compressing Setup program executable
+[00:01:06]    Updating version info
+[00:01:06] 
+[00:01:06] 
+[00:01:06] Successful compile (3.782 sec). Resulting Setup program filename is:
+[00:01:06] C:\Users\appveyor\go\src\github.com\git-lfs\git-lfs\git-lfs-windows-2.1.0.exe
+[00:01:06] bash --login script/cibuild
+[00:01:06] commands\mancontent_gen.go
+[00:01:11] ?   	github.com/git-lfs/git-lfs	[no test files]
+[00:01:12] ok  	github.com/git-lfs/git-lfs/commands	0.228s
+[00:01:12] ok  	github.com/git-lfs/git-lfs/config	0.092s
+[00:01:12] ?   	github.com/git-lfs/git-lfs/docs/man	[no test files]
+[00:01:12] ok  	github.com/git-lfs/git-lfs/errors	0.064s
+[00:01:13] ok  	github.com/git-lfs/git-lfs/filepathfilter	0.215s
+[00:01:18] ok  	github.com/git-lfs/git-lfs/git	3.921s
+[00:01:18] ok  	github.com/git-lfs/git-lfs/lfs	1.839s
+[00:01:18] ok  	github.com/git-lfs/git-lfs/lfsapi	0.365s
+[00:01:18] ?   	github.com/git-lfs/git-lfs/localstorage	[no test files]
+[00:01:19] ok  	github.com/git-lfs/git-lfs/locking	0.299s
+[00:01:19] ok  	github.com/git-lfs/git-lfs/progress	0.063s
+[00:01:19] ?   	github.com/git-lfs/git-lfs/script	[no test files]
+[00:01:19] ?   	github.com/git-lfs/git-lfs/script/genmakefile	[no test files]
+[00:01:19] ?   	github.com/git-lfs/git-lfs/subprocess	[no test files]
+[00:01:19] ?   	github.com/git-lfs/git-lfs/test	[no test files]
+[00:01:20] ?   	github.com/git-lfs/git-lfs/test/git-lfs-test-server-api	[no test files]
+[00:01:20] ok  	github.com/git-lfs/git-lfs/tools	0.273s
+[00:01:21] ok  	github.com/git-lfs/git-lfs/tools/kv	0.106s
+[00:01:22] ok  	github.com/git-lfs/git-lfs/tq	0.379s
+[00:01:22] ok  	github.com/git-lfs/git-lfs/vendor/github.com/ThomsonReutersEikon/go-ntlm/ntlm	0.128s
+[00:01:22] ok  	github.com/git-lfs/git-lfs/vendor/github.com/ThomsonReutersEikon/go-ntlm/ntlm/md4	0.070s
+[00:01:22] ok  	github.com/git-lfs/git-lfs/vendor/github.com/bgentry/go-netrc/netrc	0.085s
+[00:01:22] ok  	github.com/git-lfs/git-lfs/vendor/github.com/cheggaaa/pb	0.091s
+[00:01:23] ?   	github.com/git-lfs/git-lfs/vendor/github.com/cheggaaa/pb/example	[no test files]
+[00:01:23] ?   	github.com/git-lfs/git-lfs/vendor/github.com/cheggaaa/pb/example/copy	[no test files]
+[00:01:23] ?   	github.com/git-lfs/git-lfs/vendor/github.com/inconshreveable/mousetrap	[no test files]
+[00:01:23] ok  	github.com/git-lfs/git-lfs/vendor/github.com/kr/pretty	0.066s
+[00:01:23] ?   	github.com/git-lfs/git-lfs/vendor/github.com/rubyist/tracerx	[no test files]
+[00:01:24] ok  	github.com/git-lfs/git-lfs/vendor/github.com/spf13/cobra	0.177s
+[00:01:24] ok  	github.com/git-lfs/git-lfs/vendor/github.com/spf13/pflag	0.113s
+[00:01:24] ok  	github.com/git-lfs/git-lfs/vendor/github.com/xeipuuv/gojsonpointer	0.111s
+[00:01:32] ok  	github.com/git-lfs/git-lfs/git	3.333s
+[00:01:32] compile git-lfs for script/integration
+[00:01:32] Installing goversioninfo to embed resources into Windows executables...
+[00:01:32] Creating the resource.syso version information file...
+[00:01:34] Using go1.8.1
+[00:01:37] Git LFS: /c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/bin/git-lfs
+[00:01:37] git-lfs/2.2.0-pre (GitHub; windows amd64; go 1.8.1; git 8496d232)
+[00:01:37] git version 2.13.0.windows.1
+[00:01:48] Git LFS initialized.
+[00:01:48] 
+[00:01:48] HOME: /c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/home
+[00:01:48] TMP: /tmp/git-lfs_TEMP.OrVKx9
+[00:01:48] CREDS: /c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/creds
+[00:01:48] lfstest-gitserver:
+[00:01:48]   LFSTEST_URL=/c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/url
+[00:01:48]   LFSTEST_SSL_URL=/c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/sslurl
+[00:01:48]   LFSTEST_CLIENT_CERT_URL=/c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/clientcerturl (https://127.0.0.1:1236)
+[00:01:48]   LFSTEST_CERT=/c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/cert
+[00:01:48]   LFSTEST_CLIENT_CERT=/c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/client.crt
+[00:01:48]   LFSTEST_CLIENT_KEY=/c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote/client.key
+[00:01:48]   LFSTEST_DIR=/c/Users/appveyor/go/src/github.com/git-lfs/git-lfs/test/remote
+[00:01:48] GIT:
+[00:01:48] filter.lfs.process git-lfs filter-process
+[00:01:48] filter.lfs.required true
+[00:01:48] filter.lfs.clean git-lfs clean -- %f
+[00:01:48] filter.lfs.smudge git-lfs smudge -- %f
+[00:01:48] credential.usehttppath true
+[00:01:48] credential.helper lfstest
+[00:01:48] user.name Git LFS Tests
+[00:01:48] user.email git-lfs@example.com
+[00:01:48] 
+[00:01:50] Running this maxprocs 4
+[00:01:52] test: transfer queue rejects unknown OIDs ...                      OK
+[00:01:52] test: batch error handling ...                                     OK
+[00:01:56] test: chunked transfer encoding ...                                OK
+[00:01:57] test: batch storage upload causes retries ...                      OK
+[00:01:57] test: batch storage download causes retries ...                    OK
+[00:01:57] test: clean simple file ...                                        OK
+[00:01:57] test: clean a pointer ...                                          OK
+[00:01:57] test: clean pseudo pointer ...                                     OK
+[00:01:57] test: clean pseudo pointer with extra data ...                     OK
+[00:01:58] test: checkout ...                                                 OK
+[00:01:58] test: checkout: outside git repository ...                         OK
+[00:02:00] test: batch transfer ...                                           OK
+[00:02:00] test: batch transfers occur in reverse order by size ...           OK
+[00:02:00] test: batch transfers with ssh endpoint ...                        OK
+[00:02:00] test: batch transfers with ntlm server ...                         OK
+[00:02:01] test: default config ...                                           OK
+[00:02:01] test: extension config ...                                         OK
+[00:02:01] test: url alias config ...                                         OK
+[00:02:01] test: ambiguous url alias ...                                      OK
+[00:02:01] test: url alias must be prefix ...                                 OK
+[00:02:02] test: attempt private access without credential helper ...         OK
+[00:02:02] test: commit, delete, then push ...                                OK
+[00:02:06] test: multiple revs with same OID get pushed once ...              OK
+[00:02:13] test: custom-transfer-wrong-path ...                               OK
+[00:02:13] test: custom-transfer-upload-download ...                          OK
+[00:02:17] test: env with no remote ...                                       OK
+[00:02:17] test: env with origin remote ...                                   OK
+[00:02:17] test: env with multiple remotes ...                                OK
+[00:02:17] test: env with other remote ...                                    OK
+[00:02:17] test: env with multiple remotes and lfs.url config ...             OK
+[00:02:17] test: env with multiple remotes and lfs configs ...                OK
+[00:02:17] test: env with multiple remotes and lfs url and batch configs ...  OK
+[00:02:17] test: env with .lfsconfig ...                                      OK
+[00:02:17] test: env with environment variables ...                           OK
+[00:02:17] test: env with bare repo ...                                       OK
+[00:02:17] test: env with multiple ssh remotes ...                            OK
+[00:02:17] test: env with skip download errors ...                            OK
+[00:02:17] test: env with extra transfer methods ...                          OK
+[00:02:18] test: ext ...                                                      OK
+[00:02:19] test: credentials without useHttpPath, with bad path password ...  OK
+[00:02:19] test: credentials with useHttpPath, with wrong password ...        OK
+[00:02:19] test: credentials with useHttpPath, with correct password ...      OK
+[00:02:19] test: git credential ...                                           OK
+[00:02:19] test: credentials from netrc ...                                   OK
+[00:02:19] test: credentials from netrc with bad password ...                 OK
+[00:02:19] test: credentials from lfs.url ...                                 OK
+[00:02:19] test: credentials from remote.origin.url ...                       OK
+[00:02:20] test: http.<url>.extraHeader ...                                   OK
+[00:02:26] test: fetch: setup for include test ...                            OK
+[00:02:26] test: fetch: include first matching file ...                       OK
+[00:02:26] test: fetch: include second matching file ...                      OK
+[00:02:27] test: init fetch unclean paths ...                                 OK
+[00:02:27] test: fetch unclean paths with include filter in gitconfig ...     OK
+[00:02:27] test: fetch unclean paths with exclude filter in gitconfig ...     OK
+[00:02:27] test: fetch unclean paths with include filter in cli ...           OK
+[00:02:27] test: fetch unclean paths with exclude filter in cli ...           OK
+[00:02:31] test: expired action (absolute time) ...                           OK
+[00:02:31] test: expired action (relative time) ...                           OK
+[00:02:31] test: expired action (both time) ...                               OK
+[00:02:31] test: ssh expired (absolute time) ...                              OK
+[00:02:31] test: ssh expired (relative time) ...                              OK
+[00:02:31] test: ssh expired (both time) ...                                  OK
+[00:02:37] test: filter-branch (git-lfs/git-lfs#1773) ...                     OK
+[00:02:43] test: filter process: checking out a branch ...                    OK
+[00:02:43] test: filter process: adding a file ...                            OK
+[00:02:43] test: filter process: add a file with 1024 bytes ...               OK
+[00:02:46] test: init fetch-recent ...                                        OK
+[00:02:46] test: fetch-recent normal ...                                      OK
+[00:02:46] test: fetch-recent commits ...                                     OK
+[00:02:46] test: fetch-recent days ...                                        OK
+[00:02:46] test: fetch-recent older commits ...                               OK
+[00:02:46] test: fetch-recent remote branch ...                               OK
+[00:02:46] test: fetch-recent remote refs ...                                 OK
+[00:02:48] test: fsck default ...                                             OK
+[00:02:48] test: fsck dry run ...                                             OK
+[00:02:48] test: fsck: outside git repository ...                             OK
+[00:02:48] skip: test\test-install-custom-hooks-path-unsupported.sh (git version > 2.9.0)
+[00:02:49] test: install with supported core.hooksPath ...                    OK
+[00:02:51] test: happy path ...                                               OK
+[00:02:51] test: clears local temp objects ...                                OK
+[00:02:52] test: clone ...                                                    OK
+[00:02:52] test: cloneSSL ...                                                 OK
+[00:02:52] test: clone ClientCert ...                                         OK
+[00:02:52] test: clone with flags ...                                         OK
+[00:02:52] test: clone (with include/exclude args) ...                        OK
+[00:02:52] test: clone (with .lfsconfig) ...                                  OK
+[00:02:52] test: clone with submodules ...                                    OK
+[00:02:52] test: clone in current directory ...                               OK
+[00:02:56] test: install again ...                                            OK
+[00:02:56] test: install with old (non-upgradeable) settings ...              OK
+[00:02:56] test: install with upgradeable settings ...                        OK
+[00:02:56] test: install updates repo hooks ...                               OK
+[00:02:56] test: install outside repository directory ...                     OK
+[00:02:56] test: install --skip-smudge ...                                    OK
+[00:02:56] test: install --local ...                                          OK
+[00:02:56] test: install --local outside repository ...                       OK
+[00:02:56] test: install in directory without access to .git/lfs ...          OK
+[00:02:56] test: install in repo without changing hooks ...                   OK
+[00:02:57] test: logs ...                                                     OK
+[00:03:03] test: ls-files ...                                                 OK
+[00:03:03] test: ls-files: outside git repository ...                         OK
+[00:03:03] test: ls-files: with zero files ...                                OK
+[00:03:03] test: ls-files: show duplicate files ...                           OK
+[00:03:03] test: ls-files: show duplicate files with long OID ...             OK
+[00:03:09] test: creating a lock ...                                          OK
+[00:03:09] test: create lock with server using client cert ...                OK
+[00:03:09] test: creating a lock (with output) ...                            OK
+[00:03:09] test: locking a previously locked file ...                         OK
+[00:03:09] test: locking a directory ...                                      OK
+[00:03:09] test: locking a nested file ...                                    OK
+[00:03:09] test: malformed pointers ...                                       OK
+[00:03:09] test: empty pointers ...                                           OK
+[00:03:11] test: download authenticated object ...                            OK
+[00:03:12] test: pointer --file --stdin ...                                   OK
+[00:03:12] test: pointer --file --stdin mismatch ...                          OK
+[00:03:12] test: pointer --stdin ...                                          OK
+[00:03:12] test: pointer --stdin without stdin ...                            OK
+[00:03:12] test: pointer --stdin with bad pointer ...                         OK
+[00:03:12] test: pointer --file --pointer mismatch ...                        OK
+[00:03:12] test: pointer --file --pointer ...                                 OK
+[00:03:12] test: pointer --pointer ...                                        OK
+[00:03:12] test: pointer missing --pointer ...                                OK
+[00:03:13] test: list a single lock ...                                       OK
+[00:03:13] test: list a single lock (--json) ...                              OK
+[00:03:13] test: list locks with a limit ...                                  OK
+[00:03:13] test: list locks with pagination ...                               OK
+[00:03:13] test: cached locks ...                                             OK
+[00:03:16] test: post-commit ...                                              OK
+[00:03:23] test: post-checkout ...                                            OK
+[00:03:24] test: post-merge ...                                               OK
+[00:03:28] test: init for fetch tests ...                                     OK
+[00:03:28] test: fetch ...                                                    OK
+[00:03:28] test: fetch with remote ...                                        OK
+[00:03:28] test: fetch with remote and branches ...                           OK
+[00:03:28] test: fetch with master commit sha1 ...                            OK
+[00:03:28] test: fetch with newbranch commit sha1 ...                         OK
+[00:03:28] test: fetch with include filters in gitconfig ...                  OK
+[00:03:28] test: fetch with exclude filters in gitconfig ...                  OK
+[00:03:28] test: fetch with include/exclude filters in gitconfig ...          OK
+[00:03:28] test: fetch with include filter in cli ...                         OK
+[00:03:28] test: fetch with exclude filter in cli ...                         OK
+[00:03:28] test: fetch with include/exclude filters in cli ...                OK
+[00:03:28] test: fetch with include filter overriding exclude filter ...      OK
+[00:03:28] test: fetch with missing object ...                                OK
+[00:03:28] test: fetch-all ...                                                OK
+[00:03:28] test: fetch: outside git repository ...                            OK
+[00:03:28] test: fetch with no origin remote ...                              OK
+[00:03:28] test: fetch --prune ...                                            OK
+[00:03:28] test: fetch raw remote url ...                                     OK
+[00:03:28] test: fetch with invalid remote ...                                OK
+[00:03:34] test: prune worktree ...                                           OK
+[00:03:39] test: progress meter displays positive progress ...                OK
+[00:03:46] test: push: upload to bad dns ...                                  OK
+[00:03:49] test: pull ...                                                     OK
+[00:03:49] test: pull with raw remote url ...                                 OK
+[00:03:49] test: pull: with missing object ...                                OK
+[00:03:49] test: pull: outside git repository ...                             OK
+[00:03:51] test: push a file with the same name as a branch ...               OK
+[00:03:57] test: push missing objects ...                                     OK
+[00:04:22] test: push: upload file with storage 403 ...                       OK
+[00:04:22] test: push: upload file with storage 404 ...                       OK
+[00:04:22] test: push: upload file with storage 410 ...                       OK
+[00:04:22] test: push: upload file with storage 422 ...                       OK
+[00:04:22] test: push: upload file with storage 500 ...                       OK
+[00:04:22] test: push: upload file with storage 503 ...                       OK
+[00:04:22] test: push: upload file with api 403 ...                           OK
+[00:04:22] test: push: upload file with api 404 ...                           OK
+[00:04:22] test: push: upload file with api 410 ...                           OK
+[00:04:22] test: push: upload file with api 422 ...                           OK
+[00:04:22] test: push: upload file with api 500 ...                           OK
+[00:04:29] test: clone with reference ...                                     OK
+[00:04:29] test: fetch from clone reference ...                               OK
+[00:04:36] test: pre-push ...                                                 OK
+[00:04:36] test: pre-push dry-run ...                                         OK
+[00:04:36] test: pre-push 307 redirects ...                                   OK
+[00:04:36] test: pre-push with existing file ...                              OK
+[00:04:36] test: pre-push with existing pointer ...                           OK
+[00:04:36] test: pre-push with missing pointer not on server ...              OK
+[00:04:36] test: pre-push with missing pointer which is on server ...         OK
+[00:04:36] test: pre-push with missing and present pointers ...               OK
+[00:04:36] test: pre-push multiple branches ...                               OK
+[00:04:36] test: pre-push with bad remote ...                                 OK
+[00:04:36] test: pre-push unfetched deleted remote branch & server GC ...     OK
+[00:04:36] test: pre-push delete branch ...                                   OK
+[00:04:36] test: pre-push with our lock ...                                   OK
+[00:04:36] test: pre-push with their lock on lfs file ...                     OK
+[00:04:36] test: pre-push with their lock on non-lfs lockable file ...        OK
+[00:04:36] test: pre-push locks verify 5xx with verification enabled ...      OK
+[00:04:36] test: pre-push disable locks verify on exact url ...               OK
+[00:04:36] test: pre-push disable locks verify on partial url ...             OK
+[00:04:36] test: pre-push locks verify 5xx with verification unset ...        OK
+[00:04:36] test: pre-push locks verify 501 with verification enabled ...      OK
+[00:04:36] test: pre-push locks verify 501 with verification disabled ...     OK
+[00:04:36] test: pre-push locks verify 501 with verification unset ...        OK
+[00:04:36] test: pre-push locks verify 200 ...                                OK
+[00:04:36] test: pre-push locks verify 403 with verification enabled ...      OK
+[00:04:36] test: pre-push locks verify 403 with verification disabled ...     OK
+[00:04:36] test: pre-push locks verify 403 with verification unset ...        OK
+[00:04:38] test: resume-http-range ...                                        OK
+[00:04:38] test: resume-http-range-fallback ...                               OK
+[00:04:44] test: tus-upload-uninterrupted ...                                 OK
+[00:04:44] test: tus-upload-interrupted-resume ...                            OK
+[00:04:44] test: push ...                                                     OK
+[00:04:44] test: push --all (no ref args) ...                                 OK
+[00:04:44] test: push --all (1 ref arg) ...                                   OK
+[00:04:44] test: push --all (multiple ref args) ...                           OK
+[00:04:44] test: push --all (ref with deleted files) ...                      OK
+[00:04:44] test: push object id(s) ...                                        OK
+[00:04:44] test: push modified files ...                                      OK
+[00:04:44] test: push with invalid remote ...                                 OK
+[00:04:44] test: push ambiguous branch name ...                               OK
+[00:04:44] test: push (retry with expired actions) ...                        OK
+[00:04:44] test: push to raw remote url ...                                   OK
+[00:04:44] test: push (with invalid object size) ...                          OK
+[00:04:44] test: push with deprecated _links ...                              OK
+[00:04:44] test: push with missing objects (lfs.allowincompletepush) ...      OK
+[00:04:46] test: ssh with proxy command in lfs.url ...                        OK
+[00:05:00] test: status ...                                                   OK
+[00:05:00] test: status --porcelain ...                                       OK
+[00:05:00] test: status: outside git repository ...                           OK
+[00:05:00] test: status - before initial commit ...                           OK
+[00:05:00] test: status shows multiple files with identical contents ...      OK
+[00:05:00] test: status shows multiple copies of partially staged files ...   OK
+[00:05:00] test: status: LFS to LFS change ...                                OK
+[00:05:00] test: status: Git to LFS change ...                                OK
+[00:05:00] test: status: Git to LFS conversion ...                            OK
+[00:05:00] test: submodule env with .lfsconfig ...                            OK
+[00:05:00] test: submodule update --init --remote with .lfsconfig ...         OK
+[00:05:01] test: smudge ...                                                   OK
+[00:05:01] test: smudge with temp file ...                                    OK
+[00:05:01] test: smudge with invalid pointer ...                              OK
+[00:05:01] test: smudge include/exclude ...                                   OK
+[00:05:01] test: smudge with skip ...                                         OK
+[00:05:01] test: smudge clone with include/exclude ...                        OK
+[00:05:01] test: smudge skip download failure ...                             OK
+[00:05:02] test: track (--no-modify-attrs) ...                                OK
+[00:05:03] test: prune unreferenced and old ...                               OK
+[00:05:03] test: prune keep unpushed ...                                      OK
+[00:05:03] test: prune keep recent ...                                        OK
+[00:05:03] test: prune remote tests ...                                       OK
+[00:05:03] test: prune verify ...                                             OK
+[00:05:03] test: prune verify large numbers of refs ...                       OK
+[00:05:04] test: submodule local git dir ...                                  OK
+[00:05:04] test: submodule env ...                                            OK
+[00:05:06] test: uninstall outside repository ...                             OK
+[00:05:06] test: uninstall outside repository without access to .git/lfs ...  OK
+[00:05:06] test: uninstall inside repository with default pre-push hook ...   OK
+[00:05:06] test: uninstall inside repository without lfs pre-push hook ...    OK
+[00:05:06] test: uninstall hooks inside repository ...                        OK
+[00:05:06] test: uninstall --local ...                                        OK
+[00:05:08] test: untrack ...                                                  OK
+[00:05:08] test: untrack outside git repo ...                                 OK
+[00:05:08] test: untrack removes escape sequences ...                         OK
+[00:05:10] test: track files using wildcard pattern with leading slash ...    OK
+[00:05:10] test: track files using filename pattern with leading slash ...    OK
+[00:05:11] test: push unusually named files ...                               OK
+[00:05:11] test: pull unusually named files ...                               OK
+[00:05:12] test: track ...                                                    OK
+[00:05:12] test: track --verbose ...                                          OK
+[00:05:12] test: track --dry-run ...                                          OK
+[00:05:12] test: track directory ...                                          OK
+[00:05:12] test: track without trailing linebreak ...                         OK
+[00:05:12] test: track with existing crlf ...                                 OK
+[00:05:12] test: track with autocrlf=true ...                                 OK
+[00:05:12] test: track with autocrlf=input ...                                OK
+[00:05:12] test: track outside git repo ...                                   OK
+[00:05:12] test: track representation ...                                     OK
+[00:05:12] test: track absolute ...                                           OK
+[00:05:12] test: track in gitDir ...                                          OK
+[00:05:12] test: track in symlinked dir ...                                   OK
+[00:05:12] test: track blocklisted files by name ...                          OK
+[00:05:12] test: track blocklisted files with glob ...                        OK
+[00:05:12] test: track lockable ...                                           OK
+[00:05:12] test: track lockable read-only/read-write ...                      OK
+[00:05:12] test: track escaped pattern ...                                    OK
+[00:05:13] test: git worktree ...                                             OK
+[00:05:13] test: update ...                                                   OK
+[00:05:13] test: update lfs.{url}.access ...                                  OK
+[00:05:13] test: update: outside git repository ...                           OK
+[00:05:16] test: push zero len file ...                                       OK
+[00:05:16] test: pull zero len file ...                                       OK
+[00:05:19] test: verify with retries ...                                      OK
+[00:05:19] test: verify with retries (success without retry) ...              OK
+[00:05:19] test: verify with retries (insufficient retries) ...               OK
+[00:05:19] test: verify with retries (bad .gitconfig) ...                     OK
+[00:05:25] test: unlocking a lock by path ...                                 OK
+[00:05:25] test: force unlocking lock with missing file ...                   OK
+[00:05:25] test: unlocking a lock (--json) ...                                OK
+[00:05:25] test: unlocking a lock by id ...                                   OK
+[00:05:25] test: unlocking a lock without sufficient info ...                 OK
+[00:05:25] test: unlocking a lock while uncommitted ...                       OK
+[00:05:25] test: unlocking a lock with ambiguious arguments ...               OK
+[00:05:25] test: unlocking a lock while uncommitted with --force ...          OK
+[00:05:25] test: unlocking a lock while untracked ...                         OK
+[00:05:31] Collecting artifacts...
+[00:05:31] Found artifact 'git-lfs-windows-2.1.0.exe' matching 'git-lfs-windows-*.exe' path
+[00:05:31] Found artifact 'git-lfs-x64.exe' matching 'git-lfs-x64.exe' path
+[00:05:31] Found artifact 'git-lfs-x86.exe' matching 'git-lfs-x86.exe' path
+[00:05:31] Uploading artifacts...
+[00:05:32] 
+[00:05:32] [1/3] git-lfs-windows-2.1.0.exe (3,842,460 bytes)...2%
+[00:05:32] [1/3] git-lfs-windows-2.1.0.exe (3,842,460 bytes)...40%
+[00:05:32] [1/3] git-lfs-windows-2.1.0.exe (3,842,460 bytes)...50%
+[00:05:32] [1/3] git-lfs-windows-2.1.0.exe (3,842,460 bytes)...60%
+[00:05:32] [1/3] git-lfs-windows-2.1.0.exe (3,842,460 bytes)...70%
+[00:05:32] [1/3] git-lfs-windows-2.1.0.exe (3,842,460 bytes)...100%
+[00:05:33] 
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...1%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...10%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...20%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...30%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...40%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...50%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...60%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...70%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...80%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...90%
+[00:05:33] [2/3] git-lfs-x64.exe (7,185,920 bytes)...100%
+[00:05:34] 
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...2%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...20%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...30%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...40%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...50%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...60%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...70%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...80%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...90%
+[00:05:34] [3/3] git-lfs-x86.exe (5,847,552 bytes)...100%
+[00:05:35] Build success
